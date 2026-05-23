@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-22T22:15:02-04:00",
+  "purpose": "Local-only staging copy proposal. This script does not copy files.",
+  "staging_root": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging",
+  "proposed_count": 0,
+  "blocked_count": 0,
+  "source_problem_count": 0,
+  "safety": {
+    "copy_allowed": false,
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false,
+    "requires_chris_approval_before_staging_copy": true
+  },
+  "proposed_items": [],
+  "blocked_items": []
+}

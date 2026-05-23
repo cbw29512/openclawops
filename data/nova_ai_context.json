@@ -1,0 +1,103 @@
+﻿{
+    "schema_version":  "1.0",
+    "updated_at":  "2026-05-19 13:08:59 -04:00",
+    "mission":  "Build a 24/7 local-first AI money scout and revenue operator that discovers opportunities, scores them, creates local artifacts, tracks Chris feedback, and eventually allocates budget by measured ROI.",
+    "current_system":  {
+                           "workspace":  "C:\\Users\\dmchris\\OpenClawOps",
+                           "ops_cycle_script":  "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nova-ops-cycle.ps1",
+                           "scheduled_task":  "Nova Money Scout Ops Cycle",
+                           "latest_cycle_report":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\latest-cycle.md",
+                           "enterprise_audit_report":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\nova-enterprise-audit.md",
+                           "opportunity_index":  "C:\\Users\\dmchris\\OpenClawOps\\data\\opportunity_index.json",
+                           "artifact_registry":  "C:\\Users\\dmchris\\OpenClawOps\\data\\artifact_registry.json"
+                       },
+    "authority_model":  {
+                            "local_ai_allowed":  [
+                                                     "read approved local files",
+                                                     "scan approved public feeds",
+                                                     "dedupe ideas",
+                                                     "score opportunities",
+                                                     "park weak ideas",
+                                                     "create local-only artifact drafts",
+                                                     "run source health checks",
+                                                     "run enterprise audits",
+                                                     "write local reports",
+                                                     "use Opportunity Index to prioritize local work"
+                                                 ],
+                            "large_ai_proxy_allowed":  [
+                                                           "review local reports",
+                                                           "rank opportunities",
+                                                           "challenge weak evidence",
+                                                           "recommend next local-only actions",
+                                                           "improve scoring logic",
+                                                           "prepare Chris approval packets"
+                                                       ],
+                            "chris_required_before":  [
+                                                          "publishing",
+                                                          "selling",
+                                                          "outreach",
+                                                          "sending messages",
+                                                          "committing code",
+                                                          "pushing to GitHub",
+                                                          "spending money",
+                                                          "creating accounts",
+                                                          "using credentials",
+                                                          "changing affiliate links",
+                                                          "changing live sites",
+                                                          "claiming legal or compliance certainty",
+                                                          "increasing budget limits"
+                                                      ]
+                        },
+    "opportunity_index":  {
+                              "approve_button_meaning":  "Boost +1. Work harder locally only.",
+                              "disapprove_button_meaning":  "Bury -1. Park or lower local priority.",
+                              "external_action_allowed_by_vote":  false,
+                              "active_positive":  "priority_index \u003e= 3",
+                              "active_watch":  "priority_index 1 to 2",
+                              "neutral_hold":  "priority_index 0",
+                              "idea_pit":  "priority_index -1 to -2",
+                              "deep_freeze":  "priority_index \u003c= -3"
+                          },
+    "budget_roi":  {
+                       "current_mode":  "no_real_spending",
+                       "future_first_mode":  "simulation_only",
+                       "principle":  "Budget should flow toward measured ROI, not vibes.",
+                       "scale_rule":  "Start tiny, measure, then scale only with proof.",
+                       "example_scale_path":  [
+                                                  "1",
+                                                  "5",
+                                                  "10",
+                                                  "25",
+                                                  "50"
+                                              ],
+                       "require_proof_before_increase":  true,
+                       "winners":  "increase slowly within cap",
+                       "losers":  "stop, revise, or bury"
+                   },
+    "dashboard":  {
+                      "v1_mode":  "local_read_only_plus_priority_votes",
+                      "host":  "127.0.0.1 only",
+                      "allowed_write_target":  "opportunity_index.json only",
+                      "buttons":  [
+                                      "Boost +1",
+                                      "Bury -1"
+                                  ],
+                      "forbidden_v1_actions":  [
+                                                   "publish",
+                                                   "sell",
+                                                   "outreach",
+                                                   "send messages",
+                                                   "commit",
+                                                   "push",
+                                                   "spend money",
+                                                   "change live sites"
+                                               ]
+                  },
+    "safety":  {
+                   "default_behavior":  "Prepare locally. Report honestly. Ask before risky external actions.",
+                   "external_actions_enabled":  false,
+                   "spending_enabled":  false,
+                   "outreach_enabled":  false,
+                   "publishing_enabled":  false
+               }
+}

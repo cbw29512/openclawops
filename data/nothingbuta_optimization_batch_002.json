@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T19:43:50-04:00",
+  "batch_id": "nothingbuta-optimization-batch-002",
+  "target_slug": "mortgage-payment-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\mortgage-payment-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\mortgage-payment-calculator-before-optimization-002-20260521-194350.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_section"
+  ],
+  "problems": []
+}

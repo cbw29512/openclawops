@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-22T22:15:03-04:00",
+  "policy_id": "nothingbuta-hourly-optimization-policy",
+  "mission": "Continuously improve 24 high-performing SEO-optimized single-purpose app/tool sites.",
+  "ready_checked": 0,
+  "blocked_count": 0,
+  "needs_improvement_count": 0,
+  "locked_safety_gates": {
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false,
+    "spending_allowed": false,
+    "requires_chris_approval_before_external_action": true
+  },
+  "results": [],
+  "blocked_items": []
+}

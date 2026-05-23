@@ -1,0 +1,25 @@
+{
+    "manifest_id":  "nothingbuta-path-cleanup-commit-result",
+    "created_at":  "2026-05-20T18:24:21-04:00",
+    "state":  "path_cleanup_commit_complete",
+    "approved_action":  "commit_only_for_path_cleanup",
+    "repo_url":  "https://github.com/cbw29512/nothingbuta",
+    "local_clone_path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta",
+    "branch":  "main",
+    "base_commit":  "9afc3c2d4ba5128343fe53bc1ab6606e84263bb8",
+    "cleanup_commit_hash":  "d832916624bb284ac3bb535e4a585ebd4dc9c0bf",
+    "commit_message":  "Clean GitHub Pages tool path",
+    "old_path":  "docs/nothingbuta/debt-payoff-calculator/index.html",
+    "new_path":  "docs/debt-payoff-calculator/index.html",
+    "tool_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "staged_scope":  [
+                         "README.md",
+                         "STRUCTURE.md",
+                         "docs"
+                     ],
+    "push_allowed":  false,
+    "publish_allowed":  false,
+    "pages_enable_allowed":  false,
+    "external_action_allowed":  false,
+    "final_chris_approval_required":  true
+}

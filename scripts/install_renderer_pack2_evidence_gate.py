@@ -1,0 +1,366 @@
+from __future__ import annotations
+
+import json
+from datetime import datetime
+from pathlib import Path
+
+
+ROOT = Path(r"C:\Users\dmchris\OpenClawOps")
+DATA_DIR = ROOT / "data"
+REPORTS_DIR = ROOT / "reports"
+
+JSON_PATH = DATA_DIR / "nothingbuta_renderer_pack2_evidence.json"
+MD_PATH = REPORTS_DIR / "nothingbuta-renderer-pack2-evidence.md"
+
+
+EVIDENCE = {
+    "created_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+    "policy": {
+        "purpose": "Evidence gate before building Renderer Expansion Pack 2.",
+        "rule": "Do not build a missing renderer just because a candidate exists. Require proof of user demand, competitor presence, monetization path, and acceptable trust risk.",
+        "external_actions_allowed": False,
+        "commit_allowed": False,
+        "push_allowed": False,
+        "publish_allowed": False,
+        "analytics_allowed": False,
+        "ads_allowed": False,
+        "affiliate_links_allowed": False,
+        "lead_capture_allowed": False,
+    },
+    "category_proof": [
+        {
+            "claim": "Calculator-style utility sites can attract large search traffic.",
+            "sources": [
+                {
+                    "name": "Similarweb calculator.net April 2026 traffic",
+                    "url": "https://www.similarweb.com/website/calculator.net/",
+                    "note": "Estimated 52.3M visits and #1 Math category ranking."
+                },
+                {
+                    "name": "Semrush calculator.net April 2026 overview",
+                    "url": "https://www.semrush.com/website/calculator.net/overview/",
+                    "note": "Estimated 58.73M visits in April 2026; Google organic shown as a major traffic source."
+                },
+                {
+                    "name": "Calculator.net homepage",
+                    "url": "https://www.calculator.net/",
+                    "note": "Site states it offers around 200 calculators."
+                }
+            ]
+        }
+    ],
+    "candidates": [
+        {
+            "name": "Simple ROI Calculator",
+            "slug": "roi-calculator",
+            "decision": "build_candidate",
+            "score": 82,
+            "evidence_level": "medium",
+            "why": "ROI calculators are common B2B/marketing utility tools and can connect to business-value content.",
+            "search_intent": [
+                "roi calculator",
+                "marketing roi calculator",
+                "seo roi calculator",
+                "business roi calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "BrightEdge Organic Search ROI Opportunity Calculator",
+                    "url": "https://www.brightedge.com/resources/organic-search-roi-opportunity-calculator"
+                },
+                {
+                    "name": "Semrush SEO ROI guide",
+                    "url": "https://www.semrush.com/blog/seo-roi/"
+                },
+                {
+                    "name": "Pure Visibility ROI of SEO guide",
+                    "url": "https://purevisibility.com/roi-of-seo/"
+                }
+            ],
+            "monetization_path": "B2B lead magnet later, SEO/marketing affiliate later, ads later only after traffic.",
+            "trust_risk": "medium",
+            "notes": "Keep generic business ROI. Avoid promising financial results."
+        },
+        {
+            "name": "Recipe Scale Calculator",
+            "slug": "recipe-scale-calculator",
+            "decision": "build_candidate",
+            "score": 78,
+            "evidence_level": "medium_high",
+            "why": "Recipe scaling has clear user demand and many live competitors. Allrecipes called its recipe scaling tool most-requested.",
+            "search_intent": [
+                "recipe scale calculator",
+                "recipe converter",
+                "double recipe calculator",
+                "halve recipe calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Allrecipes recipe scaling tool article",
+                    "url": "https://www.allrecipes.com/new-recipe-scaling-tool-8730133"
+                },
+                {
+                    "name": "RecipeCard recipe converter",
+                    "url": "https://recipecard.io/recipe-converter/"
+                },
+                {
+                    "name": "Inch Calculator recipe scale conversion calculator",
+                    "url": "https://www.inchcalculator.com/recipe-scale-conversion-calculator/"
+                },
+                {
+                    "name": "WebstaurantStore recipe converter",
+                    "url": "https://www.webstaurantstore.com/recipe_resizer.html"
+                }
+            ],
+            "monetization_path": "Kitchen affiliate later, printable recipe tools later, ads later only after traffic.",
+            "trust_risk": "low",
+            "notes": "Good utility candidate. Keep it simple: original servings, desired servings, ingredient quantity."
+        },
+        {
+            "name": "Calories Per Serving Calculator",
+            "slug": "calories-per-serving-calculator",
+            "decision": "research_more",
+            "score": 61,
+            "evidence_level": "medium",
+            "why": "Recipe nutrition tools exist, but a truly useful calorie-per-serving calculator may require ingredient databases and health disclaimers.",
+            "search_intent": [
+                "calories per serving calculator",
+                "recipe calorie calculator",
+                "nutrition per serving calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Verywell Fit recipe nutrition calculator",
+                    "url": "https://www.verywellfit.com/recipe-nutrition-analyzer-4157076"
+                },
+                {
+                    "name": "HappyForks recipe analyzer",
+                    "url": "https://happyforks.com/analyzer"
+                },
+                {
+                    "name": "NutritionValue nutrition calculator",
+                    "url": "https://www.nutritionvalue.org/nutritioncalculator.php"
+                },
+                {
+                    "name": "RecipeCard recipe nutrition analyzer",
+                    "url": "https://recipecard.io/recipe-nutrition-analyzer/"
+                }
+            ],
+            "monetization_path": "Possible ads later, possible health/meal prep affiliate later, but needs extra trust review.",
+            "trust_risk": "high",
+            "notes": "Do not build as a fake nutrition analyzer. Only build if scoped as simple calories divided by servings, with clear limitations."
+        },
+        {
+            "name": "Paint Coverage Calculator",
+            "slug": "paint-coverage-calculator",
+            "decision": "build_candidate",
+            "score": 86,
+            "evidence_level": "high",
+            "why": "Retailers use paint calculators to drive purchase planning. Lowe's has a live paint calculator with coverage assumptions.",
+            "search_intent": [
+                "paint calculator",
+                "paint coverage calculator",
+                "how much paint do I need",
+                "paint square footage calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Lowe's Paint Calculator",
+                    "url": "https://www.lowes.com/n/calculators/paint-calculator"
+                },
+                {
+                    "name": "Home Depot project calculators",
+                    "url": "https://www.homedepot.com/c/project_calculators"
+                }
+            ],
+            "monetization_path": "Paint/tool affiliate later, home improvement ads later, project supply checklist later.",
+            "trust_risk": "low_medium",
+            "notes": "Use estimate-only disclaimer. Inputs: wall width/height, doors/windows, coats, coverage per gallon."
+        },
+        {
+            "name": "Flooring Calculator",
+            "slug": "flooring-calculator",
+            "decision": "build_candidate",
+            "score": 84,
+            "evidence_level": "high",
+            "why": "Lowe's has multiple flooring calculators, including vinyl, tile, carpet, and wood flooring calculators.",
+            "search_intent": [
+                "flooring calculator",
+                "flooring square footage calculator",
+                "tile flooring calculator",
+                "vinyl flooring calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Lowe's vinyl flooring calculator",
+                    "url": "https://www.lowes.com/n/calculators/vinyl-flooring-calculator"
+                },
+                {
+                    "name": "Lowe's tile flooring calculator",
+                    "url": "https://www.lowes.com/n/calculators/tile-floor-calculator"
+                },
+                {
+                    "name": "Lowe's wood flooring calculator",
+                    "url": "https://www.lowes.com/n/calculators/wood-flooring-calculator"
+                },
+                {
+                    "name": "Lowe's carpet measurement calculator",
+                    "url": "https://www.lowes.com/n/calculators/carpet-measurement-calculator"
+                }
+            ],
+            "monetization_path": "Flooring affiliate later, home improvement ads later, material estimator content.",
+            "trust_risk": "low_medium",
+            "notes": "Use waste percentage default, estimate-only disclaimer, and avoid claiming exact material requirements."
+        },
+        {
+            "name": "Concrete Calculator",
+            "slug": "concrete-calculator",
+            "decision": "build_candidate",
+            "score": 85,
+            "evidence_level": "high",
+            "why": "Home Depot and Lowe's both operate concrete calculators; commercial concrete calculator products also exist.",
+            "search_intent": [
+                "concrete calculator",
+                "concrete slab calculator",
+                "how much concrete do I need",
+                "concrete bags calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Home Depot concrete calculator",
+                    "url": "https://www.homedepot.com/project-seller/concrete-calculator"
+                },
+                {
+                    "name": "Lowe's concrete slabs calculator",
+                    "url": "https://www.lowes.com/n/calculators/concrete-slabs-calculator"
+                },
+                {
+                    "name": "Home Depot ConcreteCalc Pro product",
+                    "url": "https://www.homedepot.com/p/Calculated-Industries-ConcreteCalc-Pro-Calculator-4225/207088935"
+                }
+            ],
+            "monetization_path": "Concrete/tool affiliate later, home improvement ads later, project checklist later.",
+            "trust_risk": "medium",
+            "notes": "Use strong estimate-only disclaimer. Inputs: length, width, depth, waste percentage, bag size."
+        },
+        {
+            "name": "Age Calculator",
+            "slug": "age-calculator",
+            "decision": "park_for_now",
+            "score": 52,
+            "evidence_level": "medium",
+            "why": "Age calculators clearly exist and likely get search demand, but monetization is weak and competition is broad.",
+            "search_intent": [
+                "age calculator",
+                "date of birth calculator",
+                "how old am I calculator"
+            ],
+            "competitor_sources": [
+                {
+                    "name": "Calculator.net Age Calculator",
+                    "url": "https://www.calculator.net/age-calculator.html"
+                },
+                {
+                    "name": "CalculatorSoup Age Calculator",
+                    "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php"
+                }
+            ],
+            "monetization_path": "Weak. Possible ads only after traffic.",
+            "trust_risk": "low",
+            "notes": "Do not prioritize unless needed to fill the 24-page batch or paired with a date/time utility cluster."
+        }
+    ]
+}
+
+
+def write_json() -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    JSON_PATH.write_text(json.dumps(EVIDENCE, indent=2), encoding="utf-8")
+
+
+def write_markdown() -> None:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    lines = [
+        "# NothingButA Renderer Pack 2 Evidence Gate",
+        "",
+        f"Generated: {EVIDENCE['created_at']}",
+        "",
+        "## Policy",
+        "",
+        "- No renderer is approved just because it exists in the queue.",
+        "- Build only candidates with evidence of user demand, competitor presence, monetization path, and acceptable trust risk.",
+        "- No commit, push, publish, analytics, ads, affiliate links, lead capture, or outreach is allowed from this packet.",
+        "",
+        "## Category Proof",
+        "",
+    ]
+
+    for proof in EVIDENCE["category_proof"]:
+        lines.append(f"- {proof['claim']}")
+        for source in proof["sources"]:
+            lines.append(f"  - {source['name']}: {source['url']}")
+            lines.append(f"    - {source['note']}")
+
+    lines.extend(["", "## Candidate Decisions", ""])
+
+    for item in EVIDENCE["candidates"]:
+        lines.extend([
+            f"### {item['name']}",
+            "",
+            f"- Slug: `{item['slug']}`",
+            f"- Decision: `{item['decision']}`",
+            f"- Evidence level: `{item['evidence_level']}`",
+            f"- Score: {item['score']}",
+            f"- Trust risk: `{item['trust_risk']}`",
+            f"- Why: {item['why']}",
+            f"- Monetization path: {item['monetization_path']}",
+            f"- Notes: {item['notes']}",
+            "- Search intent:",
+        ])
+
+        for query in item["search_intent"]:
+            lines.append(f"  - {query}")
+
+        lines.append("- Competitor/evidence sources:")
+        for source in item["competitor_sources"]:
+            lines.append(f"  - {source['name']}: {source['url']}")
+
+        lines.append("")
+
+    lines.extend([
+        "## Recommended Next Build Set",
+        "",
+        "Build first:",
+        "",
+        "1. Paint Coverage Calculator",
+        "2. Concrete Calculator",
+        "3. Flooring Calculator",
+        "4. Simple ROI Calculator",
+        "5. Recipe Scale Calculator",
+        "",
+        "Research more before building:",
+        "",
+        "1. Calories Per Serving Calculator",
+        "",
+        "Park for now:",
+        "",
+        "1. Age Calculator",
+        "",
+    ])
+
+    MD_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def main() -> None:
+    write_json()
+    write_markdown()
+
+    print("NOTHINGBUTA RENDERER PACK 2 EVIDENCE GATE: PASS")
+    print(f"JSON: {JSON_PATH}")
+    print(f"MD: {MD_PATH}")
+    print("Next: review evidence packet, then build only approved renderer candidates.")
+
+
+if __name__ == "__main__":
+    main()

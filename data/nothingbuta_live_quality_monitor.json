@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-05-22T22:15:07-04:00",
+  "status": "PASS",
+  "pages_checked": 26,
+  "failed_pages": 0,
+  "results": [
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/",
+      "status": "PASS",
+      "title": "NothingButA Tools",
+      "description_length": 54,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/break-even-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Break-Even Calculator",
+      "description_length": 127,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/car-payment-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Car Payment Calculator",
+      "description_length": 113,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/churn-rate-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Churn Rate Calculator",
+      "description_length": 132,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/concrete-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Concrete Calculator",
+      "description_length": 110,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/conversion-rate-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Conversion Rate Calculator",
+      "description_length": 121,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/days-between-dates-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Days Between Dates Calculator",
+      "description_length": 104,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/debt-payoff-calculator/",
+      "status": "PASS",
+      "title": "Nothing But A Debt Payoff Calculator",
+      "description_length": 103,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/discount-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Discount Calculator",
+      "description_length": 168,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/emergency-fund-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Emergency Fund Calculator",
+      "description_length": 112,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/flooring-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Flooring Calculator",
+      "description_length": 117,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/freelance-rate-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Freelance Rate Calculator",
+      "description_length": 94,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/hourly-to-salary-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Hourly to Salary Calculator",
+      "description_length": 142,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/loan-early-payoff-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Loan Early Payoff Calculator",
+      "description_length": 109,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/mortgage-payment-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Mortgage Payment Calculator",
+      "description_length": 139,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/paint-coverage-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Paint Coverage Calculator",
+      "description_length": 105,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/paycheck-estimator/",
+      "status": "PASS",
+      "title": "NothingButA Paycheck Take-Home Estimator",
+      "description_length": 137,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/percentage-change-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Percentage Change Calculator",
+      "description_length": 105,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/recipe-scale-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Recipe Scale Calculator",
+      "description_length": 114,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/rent-affordability-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Rent Affordability Calculator",
+      "description_length": 125,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/roi-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Simple ROI Calculator",
+      "description_length": 136,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/sales-tax-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Sales Tax Calculator",
+      "description_length": 111,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/savings-goal-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Savings Goal Calculator",
+      "description_length": 125,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/time-card-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Time Card Calculator",
+      "description_length": 167,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/tip-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Tip Calculator",
+      "description_length": 156,
+      "h1_count": 1,
+      "problems": []
+    },
+    {
+      "url": "https://cbw29512.github.io/nothingbuta/unit-price-calculator/",
+      "status": "PASS",
+      "title": "NothingButA Unit Price Calculator",
+      "description_length": 166,
+      "h1_count": 1,
+      "problems": []
+    }
+  ]
+}

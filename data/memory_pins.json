@@ -1,0 +1,17 @@
+﻿{
+  "schema_version": "1.0",
+  "pins": [
+    {
+      "key": "assistant_name",
+      "value": "Nova"
+    },
+    {
+      "key": "runtime",
+      "value": "OpenClaw + Ollama + llama3:latest"
+    },
+    {
+      "key": "operator",
+      "value": "Chris"
+    }
+  ]
+}

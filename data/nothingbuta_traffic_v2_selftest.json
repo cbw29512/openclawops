@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-05-21T21:29:35-04:00",
+  "status": "PASS",
+  "fake_csv": "C:\\Users\\dmchris\\OpenClawOps\\data\\nothingbuta_traffic_selftest\\fake_search_console_pages.csv",
+  "fake_records_loaded": 3,
+  "pages_analyzed": 3,
+  "opportunities_detected": 3,
+  "top_opportunities": [
+    {
+      "slug": "discount-calculator",
+      "url": "https://cbw29512.github.io/nothingbuta/discount-calculator/",
+      "clicks": 0,
+      "impressions": 82,
+      "ctr": 0.0,
+      "position": 18.5,
+      "traffic_score": 12,
+      "opportunity_type": "visible_but_no_clicks",
+      "recommendation": "Investigate whether the search snippet is compelling enough.",
+      "monetization_readiness": "not_ready"
+    },
+    {
+      "slug": "car-payment-calculator",
+      "url": "https://cbw29512.github.io/nothingbuta/car-payment-calculator/",
+      "clicks": 4,
+      "impressions": 600,
+      "ctr": 0.006666666666666667,
+      "position": 11.2,
+      "traffic_score": 9,
+      "opportunity_type": "striking_distance",
+      "recommendation": "Consider strengthening helpful content and internal links.",
+      "monetization_readiness": "candidate_review_only"
+    },
+    {
+      "slug": "roi-calculator",
+      "url": "https://cbw29512.github.io/nothingbuta/roi-calculator/",
+      "clicks": 62,
+      "impressions": 900,
+      "ctr": 0.06888888888888889,
+      "position": 4.1,
+      "traffic_score": 2,
+      "opportunity_type": "watch",
+      "recommendation": "Keep watching until more search data accumulates.",
+      "monetization_readiness": "candidate_review_only"
+    }
+  ],
+  "safety_gates": {
+    "commit": false,
+    "push": false,
+    "publish": false,
+    "ads": false,
+    "affiliate_links": false,
+    "lead_capture": false,
+    "outreach": false,
+    "spending": false
+  }
+}

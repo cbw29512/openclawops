@@ -1,0 +1,131 @@
+from __future__ import annotations
+
+import logging
+from typing import Any, Callable
+
+logger = logging.getLogger(__name__)
+
+
+def days_between_html_v2(
+    config: dict[str, Any],
+    safe_text: Callable[[Any], str],
+) -> str:
+    """Render the strict Days Between Dates calculator HTML."""
+    try:
+            """Render a strict date-specific calculator instead of a numeric placeholder."""
+            name = safe_text(config["name"])
+            description = safe_text(config["description"])
+
+            return f"""<!doctype html>
+        <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <title>NothingButA {name}</title>
+          <meta name="description" content="{description}">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+            *{{box-sizing:border-box}}
+            body{{margin:0;font-family:Arial,sans-serif;background:#f8fafc;color:#0f172a}}
+            .wrap{{width:min(100% - 24px,980px);margin:auto;padding:22px 0 52px}}
+            .hero{{padding:24px;border-radius:28px;background:linear-gradient(135deg,#111827,#2563eb);color:white;box-shadow:0 18px 55px rgba(15,23,42,.18)}}
+            .eyebrow{{display:inline-block;padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.14);font-size:13px;font-weight:900}}
+            h1{{font-size:clamp(38px,9vw,64px);line-height:.95;margin:14px 0 10px;letter-spacing:-.06em}}
+            .hero p{{color:#dbeafe;font-size:18px;line-height:1.5;margin:0}}
+            .grid{{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}}
+            .card,.result,.faq{{background:white;border:1px solid #dbe3ef;border-radius:24px;padding:18px;box-shadow:0 14px 40px rgba(15,23,42,.08)}}
+            label{{display:block;font-weight:900;margin:14px 0 7px}}
+            small{{display:block;color:#64748b;font-weight:500;margin-top:3px}}
+            input{{width:100%;min-height:54px;border:1px solid #cbd5e1;border-radius:17px;padding:14px 15px;font-size:18px;background:#f8fafc}}
+            button{{width:100%;min-height:54px;border:0;border-radius:17px;background:#2563eb;color:white;font-size:17px;font-weight:900;margin-top:16px}}
+            .metric{{padding:14px;border-radius:17px;background:#f1f5f9;margin-top:10px}}
+            .metric strong{{display:block;font-size:25px;letter-spacing:-.03em}}
+            .metric span{{color:#64748b;font-size:13px}}
+            .warn{{background:#fef3c7;color:#78350f;padding:14px;border-radius:17px;margin-top:12px;font-weight:800}}
+            .faq{{margin-top:14px}}
+            details{{border-top:1px solid #e2e8f0;padding:12px 0}}
+            details:first-of-type{{border-top:0}}
+            summary{{font-weight:900;cursor:pointer}}
+            details p{{color:#475569;line-height:1.5}}
+            @media (min-width:800px){{.wrap{{padding-top:32px}}.grid{{grid-template-columns:.9fr 1.1fr}}.card,.result,.faq{{padding:22px}}}}
+          </style>
+        </head>
+        <body>
+          <main class="wrap">
+            <section class="hero">
+              <span class="eyebrow">NothingButA tool candidate</span>
+              <h1>{name}</h1>
+              <p>{description}</p>
+            </section>
+
+            <section class="grid">
+              <form class="card" onsubmit="event.preventDefault();calc();">
+                <h2>Your dates</h2>
+                <label for="start">Start date <small>First calendar date</small></label>
+                <input id="start" type="date" inputmode="numeric" value="2026-01-01">
+
+                <label for="end">End date <small>Second calendar date</small></label>
+                <input id="end" type="date" inputmode="numeric" value="2026-12-31">
+
+                <button type="submit">Calculate days</button>
+              </form>
+
+              <section class="result" aria-live="polite">
+                <h2>Result</h2>
+                <div id="out"></div>
+              </section>
+            </section>
+
+            <section class="faq">
+              <h2>FAQ</h2>
+              <details>
+                <summary>What is inclusive count?</summary>
+                <p>Inclusive count includes both the start date and the end date.</p>
+              </details>
+              <details>
+                <summary>Does time of day matter?</summary>
+                <p>No. This simple tool compares calendar dates only.</p>
+              </details>
+            </section>
+          </main>
+
+          <script>
+            const block = (value, label) => `<div class="metric"><strong>${{value}}</strong><span>${{label}}</span></div>`;
+
+            function readDate(id) {{
+              const value = document.getElementById(id).value;
+              return value ? new Date(value + "T00:00:00") : null;
+            }}
+
+            function calc() {{
+              try {{
+                const start = readDate("start");
+                const end = readDate("end");
+
+                if (!start || !end || Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {{
+                  document.getElementById("out").innerHTML = '<div class="warn">Enter both dates.</div>';
+                  return;
+                }}
+
+                const diff = Math.round((end.getTime() - start.getTime()) / 86400000);
+                const absoluteDays = Math.abs(diff);
+                const inclusiveDays = absoluteDays + 1;
+                const direction = diff >= 0 ? "End date is after start date" : "End date is before start date";
+
+                document.getElementById("out").innerHTML =
+                  block(absoluteDays.toLocaleString(), "Days between dates") +
+                  block(inclusiveDays.toLocaleString(), "Inclusive day count") +
+                  block(direction, "Date order");
+              }} catch (err) {{
+                console.error(err);
+                document.getElementById("out").innerHTML = '<div class="warn">Check the dates and try again.</div>';
+              }}
+            }}
+
+            document.querySelectorAll("input").forEach((input) => input.addEventListener("input", calc));
+            calc();
+          </script>
+        </body>
+        </html>"""
+    except Exception:
+        logger.exception('Failed to render Days Between Dates HTML.')
+        raise

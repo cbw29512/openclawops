@@ -1,0 +1,133 @@
+[
+  {
+    "candidate_id": "nba-util-0001",
+    "site_name": "Nothing But A Debt Payoff Calculator",
+    "tool_type": "calculator",
+    "domain_candidate": "nothingbutadebtpayoffcalculator.com",
+    "primary_user_problem": "Help users estimate how extra payments affect debt payoff time and interest.",
+    "local_preview_path": "nothingbuta\\previews\\nba-util-0001\\index.html",
+    "local_preview_url": "/nothingbuta/preview/nba-util-0001/",
+    "state": "approved_for_staging",
+    "chris_decision": "approved_for_staging",
+    "regeneration_notes": "Make it mobile-first and easier for normal visitors to use.",
+    "revision_requested_count": 0,
+    "big_brother_review_status": "complete",
+    "big_brother_review": {
+      "status": "complete",
+      "overall_score": 100,
+      "quality_score": 100,
+      "seo_score": 100,
+      "code_score": 100,
+      "mobile_score": 100,
+      "trust_score": 100,
+      "checks": [
+        {
+          "name": "title",
+          "passed": true,
+          "fix": "Add a clear HTML title."
+        },
+        {
+          "name": "description",
+          "passed": true,
+          "fix": "Add a meta description."
+        },
+        {
+          "name": "viewport",
+          "passed": true,
+          "fix": "Add mobile viewport metadata."
+        },
+        {
+          "name": "inputs",
+          "passed": true,
+          "fix": "Tool needs enough inputs to be useful."
+        },
+        {
+          "name": "result",
+          "passed": true,
+          "fix": "Add a visible result/output area."
+        },
+        {
+          "name": "no_ads",
+          "passed": true,
+          "fix": "Do not add ads during local review."
+        },
+        {
+          "name": "no_affiliate",
+          "passed": true,
+          "fix": "Do not add affiliate links during local review."
+        },
+        {
+          "name": "disclaimer",
+          "passed": true,
+          "fix": "Finance tools need a clear disclaimer."
+        },
+        {
+          "name": "public_clean",
+          "passed": true,
+          "fix": "Remove internal workflow or draft language from the visitor-facing page."
+        }
+      ],
+      "recommendations": [],
+      "reviewed_at": "2026-05-20T13:42:11-04:00"
+    },
+    "quality_score": 100,
+    "seo_score": 100,
+    "code_score": 100,
+    "mobile_score": 100,
+    "trust_score": 100,
+    "publish_allowed": false,
+    "external_action_allowed": false,
+    "domain_purchase_allowed": false,
+    "ad_monetization_allowed": false,
+    "affiliate_monetization_allowed": false,
+    "lead_capture_allowed": false,
+    "commit_push_allowed": false,
+    "created_at": "2026-05-20T10:00:11-04:00",
+    "updated_at": "2026-05-20T14:40:41-04:00",
+    "last_design_feedback": "Make the site look more modern and make it easier to use for the person loading the website.",
+    "auto_regeneration_count": 5,
+    "auto_regeneration_reasons": [],
+    "builder_context_status": "builder_context_ready",
+    "inspiration_guidance_applied": true,
+    "research_status": "research_packet_ready",
+    "applied_research_patterns": {
+      "pain_points_to_address": [
+        "Users may not understand how APR turns into monthly interest.",
+        "Users want to know whether extra payments are worth it.",
+        "Users want a plain answer, not a spreadsheet.",
+        "Users may compare snowball versus avalanche payoff approaches.",
+        "Mobile users need the result immediately after changing numbers."
+      ],
+      "mobile_ux_patterns": [
+        "Use one-column input flow on phones.",
+        "Keep input fields thumb-friendly.",
+        "Show the result directly below inputs on mobile.",
+        "Avoid long educational copy before the calculator.",
+        "Use default example values so the tool is useful immediately."
+      ],
+      "result_explanation_patterns": [
+        "Show payoff time first.",
+        "Show interest paid and interest saved separately.",
+        "Show months saved as a simple number.",
+        "Explain what changes when the extra payment changes.",
+        "Use plain-English warnings when payment is too low."
+      ],
+      "faq_candidates": [
+        "What does interest saved mean?",
+        "Does this replace my lender payoff quote?",
+        "Should I use debt snowball or debt avalanche?",
+        "Why does a small extra payment change the payoff date?",
+        "What if my payment is too low?"
+      ],
+      "trust_and_disclaimer_patterns": [
+        "Use a short financial estimate disclaimer near the tool.",
+        "Avoid promising exact payoff dates.",
+        "Explain that lender terms, fees, payment timing, and compounding can change results.",
+        "Do not collect sensitive financial details in the first public version."
+      ]
+    },
+    "no_copy_required": true,
+    "public_cleanliness_required": true,
+    "mobile_first_required": true
+  }
+]

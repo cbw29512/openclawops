@@ -1,0 +1,86 @@
+{
+  "source_registry_id": "nothingbuta-inspiration-sources",
+  "created_at": "2026-05-20T11:41:07-04:00",
+  "updated_at": "2026-05-20T11:41:07-04:00",
+  "active_candidate_id": "nba-util-0001",
+  "candidate_name": "Nothing But A Debt Payoff Calculator",
+  "research_mode": "pattern_extraction_without_copying",
+  "source_groups": [
+    {
+      "group": "reddit_and_forums",
+      "purpose": "Find repeated user pain points, confusing terms, real-world debt payoff questions, and language normal people use.",
+      "access_rule": "Use compliant/approved access or manual/search observation only. Store summaries, not copied posts.",
+      "queries": [
+        "site:reddit.com debt payoff calculator extra payment confusion",
+        "site:reddit.com personalfinance debt payoff extra payment interest saved",
+        "site:reddit.com debtfree payoff calculator snowball avalanche",
+        "site:reddit.com povertyfinance pay off credit card extra payment",
+        "site:reddit.com creditcards payoff calculator APR monthly payment",
+        "forum debt payoff calculator extra payment interest saved",
+        "forum credit card payoff calculator confusing APR"
+      ]
+    },
+    {
+      "group": "competitor_tools",
+      "purpose": "Study UX patterns, mobile calculator behavior, result-card design, FAQ placement, examples, and trust/disclaimer language.",
+      "access_rule": "Observe patterns only. Do not copy text, layout, code, branding, or proprietary features.",
+      "source_examples": [
+        {
+          "name": "Bankrate credit card payoff calculator",
+          "pattern_to_study": [
+            "calculator input sequence",
+            "financial disclaimer style",
+            "result explanation"
+          ]
+        },
+        {
+          "name": "NerdWallet financial calculators",
+          "pattern_to_study": [
+            "calculator hub structure",
+            "supporting educational copy",
+            "trust positioning"
+          ]
+        },
+        {
+          "name": "Calculator.net debt payoff calculator",
+          "pattern_to_study": [
+            "input coverage",
+            "result table possibilities",
+            "simple utility layout"
+          ]
+        },
+        {
+          "name": "Undebt.it payoff tools",
+          "pattern_to_study": [
+            "snowball vs avalanche concepts",
+            "multiple debt workflow",
+            "payoff plan framing"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "seo_and_search_intent",
+      "purpose": "Find what users expect from this query and what supporting content helps them use the tool.",
+      "access_rule": "Use intent summaries and pattern notes only.",
+      "queries": [
+        "debt payoff calculator extra payment",
+        "credit card payoff calculator",
+        "debt snowball calculator",
+        "debt avalanche calculator",
+        "how much interest can I save with extra payments",
+        "pay off credit card faster calculator"
+      ]
+    }
+  ],
+  "required_pattern_outputs": [
+    "top_user_pain_points",
+    "mobile_ux_patterns",
+    "result_explanation_patterns",
+    "faq_candidates",
+    "feature_gap_candidates",
+    "trust_and_disclaimer_patterns",
+    "do_not_copy_notes",
+    "next_build_guidance"
+  ]
+}

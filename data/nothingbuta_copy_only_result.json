@@ -1,0 +1,28 @@
+{
+    "manifest_id":  "nothingbuta-copy-only-result",
+    "created_at":  "2026-05-20T17:05:55-04:00",
+    "state":  "copy_only_complete",
+    "approved_action":  "copy_only",
+    "source_bundle":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\public_repo_bundle\\nothingbuta",
+    "local_clone_path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta",
+    "repo_url":  "https://github.com/cbw29512/nothingbuta",
+    "remote_url":  "https://github.com/cbw29512/nothingbuta",
+    "branch":  "main",
+    "copied_items":  [
+                         "README.md",
+                         "STRUCTURE.md",
+                         "docs"
+                     ],
+    "source_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "copied_tool_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "audit_status":  "PASS",
+    "audit_problems":  [
+
+                       ],
+    "commit_allowed":  false,
+    "push_allowed":  false,
+    "publish_allowed":  false,
+    "external_action_allowed":  false,
+    "pages_enable_allowed":  false,
+    "final_chris_approval_required":  true
+}

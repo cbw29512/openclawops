@@ -1,0 +1,196 @@
+﻿{
+    "schema_version":  "1.0",
+    "updated_at":  "2026-05-18 18:15:10 -04:00",
+    "ideas":  [
+                  {
+                      "idea_id":  "ms-0001",
+                      "status":  "research_only",
+                      "title":  "Local AI Workstation Gear page QA and conversion pass",
+                      "audience":  "People building local AI workstations",
+                      "pain_point":  "Visitors need clear item-first pages with images, trust, and easy buy buttons.",
+                      "proposed_solution":  "Audit existing affiliate item pages for missing images, weak CTAs, disclosures, and buyer clarity.",
+                      "monetization_model":  "affiliate",
+                      "evidence":  [
+                                       {
+                                           "source_type":  "manual",
+                                           "source":  "Chris project context",
+                                           "claim_supported":  "Chris has an existing Amazon-affiliate local AI workstation gear site workflow. This does not prove market demand.",
+                                           "confidence":  "medium"
+                                       }
+                                   ],
+                      "risk_flags":  [
+                                         "Requires affiliate compliance review before publishing",
+                                         "Requires Chris approval before product or link changes"
+                                     ],
+                      "score":  {
+                                    "demand":  3,
+                                    "speed_to_test":  4,
+                                    "cost":  5,
+                                    "fit_for_chris":  5,
+                                    "risk":  2,
+                                    "total":  15
+                                },
+                      "approval_required_before":  [
+                                                       "spending",
+                                                       "publishing",
+                                                       "outreach",
+                                                       "affiliate_link_change",
+                                                       "commit",
+                                                       "push",
+                                                       "live_site_change"
+                                                   ]
+                  },
+                  {
+                      "idea_id":  "ms-0002",
+                      "status":  "research_only",
+                      "title":  "PushButtonTools conversion and pricing follow-up packet",
+                      "audience":  "Small business owners who want simple tool recommendations",
+                      "pain_point":  "Visitors may need clearer upgrade paths, proof, and next-step CTAs.",
+                      "proposed_solution":  "Prepare a local-only review packet for pricing CTAs, solve pages, analytics events, and next experiment ideas.",
+                      "monetization_model":  "tool",
+                      "evidence":  [
+                                       {
+                                           "source_type":  "manual",
+                                           "source":  "Chris project context",
+                                           "claim_supported":  "Chris has an active PushButtonTools workflow with pricing/CTA tracking. This does not prove revenue.",
+                                           "confidence":  "medium"
+                                       }
+                                   ],
+                      "risk_flags":  [
+                                         "No live production changes without approval",
+                                         "No outreach without approval"
+                                     ],
+                      "score":  {
+                                    "demand":  3,
+                                    "speed_to_test":  4,
+                                    "cost":  5,
+                                    "fit_for_chris":  5,
+                                    "risk":  2,
+                                    "total":  15
+                                },
+                      "approval_required_before":  [
+                                                       "spending",
+                                                       "publishing",
+                                                       "outreach",
+                                                       "affiliate_link_change",
+                                                       "commit",
+                                                       "push",
+                                                       "live_site_change"
+                                                   ]
+                  },
+                  {
+                      "idea_id":  "ms-0003",
+                      "status":  "research_only",
+                      "title":  "NotNowNotBrainRot companion digital product test",
+                      "audience":  "Viewers interested in dark psychology, recovery, and emotional defense content",
+                      "pain_point":  "Viewers may want practical takeaways after watching long-form videos.",
+                      "proposed_solution":  "Draft a no-claims companion worksheet or reflection PDF for one video topic, then review before any publishing.",
+                      "monetization_model":  "digital_product",
+                      "evidence":  [
+                                       {
+                                           "source_type":  "manual",
+                                           "source":  "Chris project context",
+                                           "claim_supported":  "Chris runs NotNowNotBrainRot and produces long-form/short-form content. This does not prove buyer demand.",
+                                           "confidence":  "medium"
+                                       }
+                                   ],
+                      "risk_flags":  [
+                                         "Avoid medical/therapy claims",
+                                         "No publishing or product listing without approval"
+                                     ],
+                      "score":  {
+                                    "demand":  3,
+                                    "speed_to_test":  3,
+                                    "cost":  5,
+                                    "fit_for_chris":  5,
+                                    "risk":  3,
+                                    "total":  13
+                                },
+                      "approval_required_before":  [
+                                                       "spending",
+                                                       "publishing",
+                                                       "outreach",
+                                                       "affiliate_link_change",
+                                                       "commit",
+                                                       "push",
+                                                       "live_site_change"
+                                                   ]
+                  },
+                  {
+                      "idea_id":  "ms-0004",
+                      "status":  "research_only",
+                      "title":  "KDP coloring book production checklist product",
+                      "audience":  "Creators making coloring books for KDP",
+                      "pain_point":  "KDP cover/manuscript formatting causes repeated errors and rework.",
+                      "proposed_solution":  "Turn the local KDP cover/manuscript lessons into a reusable checklist or mini-guide draft.",
+                      "monetization_model":  "digital_product",
+                      "evidence":  [
+                                       {
+                                           "source_type":  "manual",
+                                           "source":  "Chris project context",
+                                           "claim_supported":  "Chris has worked through KDP coloring book cover issues. This does not prove market demand.",
+                                           "confidence":  "medium"
+                                       }
+                                   ],
+                      "risk_flags":  [
+                                         "No Amazon/KDP claims without verification",
+                                         "No publishing without approval"
+                                     ],
+                      "score":  {
+                                    "demand":  2,
+                                    "speed_to_test":  4,
+                                    "cost":  5,
+                                    "fit_for_chris":  4,
+                                    "risk":  2,
+                                    "total":  13
+                                },
+                      "approval_required_before":  [
+                                                       "spending",
+                                                       "publishing",
+                                                       "outreach",
+                                                       "affiliate_link_change",
+                                                       "commit",
+                                                       "push",
+                                                       "live_site_change"
+                                                   ]
+                  },
+                  {
+                      "idea_id":  "ms-0005",
+                      "status":  "research_only",
+                      "title":  "CuteChaosCrittersTV animal micro-story content system",
+                      "audience":  "Viewers who like cute emotional animal micro-stories",
+                      "pain_point":  "Automated animal content needs consistency, character rules, and monetization paths without spam.",
+                      "proposed_solution":  "Create a local content QA and character consistency packet before any monetization attempt.",
+                      "monetization_model":  "content",
+                      "evidence":  [
+                                       {
+                                           "source_type":  "manual",
+                                           "source":  "Chris project context",
+                                           "claim_supported":  "Chris is building an animal-focused Rotgen/CuteChaosCrittersTV workflow. This does not prove monetization.",
+                                           "confidence":  "medium"
+                                       }
+                                   ],
+                      "risk_flags":  [
+                                         "No uploads without approval",
+                                         "No charity/shelter/zoo claims without verification"
+                                     ],
+                      "score":  {
+                                    "demand":  2,
+                                    "speed_to_test":  3,
+                                    "cost":  4,
+                                    "fit_for_chris":  4,
+                                    "risk":  3,
+                                    "total":  10
+                                },
+                      "approval_required_before":  [
+                                                       "spending",
+                                                       "publishing",
+                                                       "outreach",
+                                                       "affiliate_link_change",
+                                                       "commit",
+                                                       "push",
+                                                       "live_site_change"
+                                                   ]
+                  }
+              ]
+}

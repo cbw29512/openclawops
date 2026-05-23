@@ -1,0 +1,31 @@
+{
+  "policy_id": "nothingbuta-mobile-first-quality-gate",
+  "mobile_first_required": true,
+  "min_quality_score": 85,
+  "min_seo_score": 80,
+  "min_code_score": 80,
+  "min_mobile_score": 90,
+  "required_trust_score": 100,
+  "auto_regenerate_before_chris_review": true,
+  "blocked_before_approval": [
+    "publishing",
+    "domain_purchase",
+    "ads",
+    "affiliate_links",
+    "lead_capture",
+    "git_commit",
+    "git_push"
+  ],
+  "html_required_markers": [
+    "name=\"viewport\"",
+    "@media",
+    "inputmode",
+    "not financial advice",
+    "interest saved",
+    "result",
+    "example",
+    "faq"
+  ],
+  "updated_at": "2026-05-20T11:35:10-04:00",
+  "note": "Removed stale local-only preview requirement. Public pages must not expose internal draft/workflow language."
+}

@@ -1,0 +1,45 @@
+{
+  "policy_id": "nothingbuta-public-page-cleanliness-gate",
+  "purpose": "Visitor-facing NothingButA pages must look like finished useful websites, not internal AI drafts.",
+  "banned_public_terms": [
+    "local-only",
+    "draft",
+    "nova",
+    "big brother",
+    "little brother",
+    "internal",
+    "regenerate",
+    "future version",
+    "next upgrade",
+    "chris"
+  ],
+  "required_public_markers": [
+    "name=\"viewport\"",
+    "@media",
+    "inputmode",
+    "not financial advice",
+    "interest saved",
+    "result",
+    "example",
+    "faq"
+  ],
+  "network_design_rule": {
+    "consistent": [
+      "tool near top",
+      "large mobile inputs",
+      "clear result card",
+      "plain-English labels",
+      "no forced signup",
+      "visitor-facing disclaimer where needed"
+    ],
+    "variable": [
+      "colors",
+      "hero layout",
+      "examples",
+      "supporting sections",
+      "tone",
+      "visual identity",
+      "tool-specific result explanation"
+    ]
+  }
+}

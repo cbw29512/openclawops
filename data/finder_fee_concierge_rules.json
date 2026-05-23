@@ -1,0 +1,56 @@
+﻿{
+    "schema_version":  "1.1",
+    "updated_at":  "2026-05-19 15:51:42 -04:00",
+    "business_model":  "finder_fee_sourcing_concierge",
+    "mode":  "simulation_only",
+    "pricing_model":  {
+                          "upfront_research_fee_enabled":  true,
+                          "upfront_research_fee_purpose":  "Filters unserious, impossible, vague, or low-effort requests before Nova spends research time.",
+                          "suggested_upfront_fee_usd":  5,
+                          "suggested_upfront_fee_range_usd":  [
+                                                                  "5",
+                                                                  "25"
+                                                              ],
+                          "success_fee_percent":  1,
+                          "success_fee_applies_when":  "Buyer and seller approve a match and transaction succeeds.",
+                          "disclose_before_research":  true,
+                          "hidden_fees_allowed":  false,
+                          "refund_policy_required_before_real_world_use":  true
+                      },
+    "request_quality_gate":  {
+                                 "require_specific_item_description":  true,
+                                 "require_target_budget":  true,
+                                 "require_location_or_shipping_scope":  true,
+                                 "require_condition_preference":  true,
+                                 "reject_impossible_requests":  true,
+                                 "reject_restricted_categories":  true,
+                                 "reject_platform_circumvention":  true
+                             },
+    "allowed_local_actions":  [
+                                  "simulate buyer request intake",
+                                  "score request seriousness",
+                                  "research buyer demand",
+                                  "research public seller availability",
+                                  "estimate item value",
+                                  "estimate finder fee",
+                                  "score fraud risk",
+                                  "score platform risk",
+                                  "prepare local match packet"
+                              ],
+    "blocked_actions":  [
+                            "message buyer",
+                            "message seller",
+                            "collect payment",
+                            "buy item",
+                            "ship item",
+                            "guarantee item",
+                            "use credentials",
+                            "spend money",
+                            "post listing",
+                            "move marketplace users off-platform"
+                        ],
+    "default_status":  "simulation_only",
+    "external_action_allowed":  false,
+    "spending_allowed":  false,
+    "outreach_allowed":  false
+}

@@ -1,0 +1,447 @@
+{
+  "generated_at": "2026-05-21T18:55:59-04:00",
+  "status": "PASS",
+  "pages_checked": 26,
+  "opportunity_counts": {
+    "could_use_stronger_card_layout": 25,
+    "could_make_result_area_more_prominent": 1
+  },
+  "recommended_pass": {
+    "name": "Visual Polish Pass 001",
+    "scope": [
+      "Improve shared calculator shell styling",
+      "Make result panels more prominent",
+      "Add stronger CTA/microcopy around each tool",
+      "Improve mobile spacing and focus states",
+      "Keep dropdown navigation and accessibility checks intact"
+    ],
+    "blocked_actions": [
+      "commit",
+      "push",
+      "publish",
+      "analytics",
+      "ads",
+      "affiliate_links",
+      "lead_capture",
+      "outreach"
+    ]
+  },
+  "results": [
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\break-even-calculator\\index.html",
+      "relative": "break-even-calculator\\index.html",
+      "title": "NothingButA Break-Even Calculator",
+      "h1": "Break-Even Calculator",
+      "style_count": 2,
+      "input_count": 3,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\car-payment-calculator\\index.html",
+      "relative": "car-payment-calculator\\index.html",
+      "title": "NothingButA Car Payment Calculator",
+      "h1": "Car Payment Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\churn-rate-calculator\\index.html",
+      "relative": "churn-rate-calculator\\index.html",
+      "title": "NothingButA Churn Rate Calculator",
+      "h1": "Churn Rate Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\concrete-calculator\\index.html",
+      "relative": "concrete-calculator\\index.html",
+      "title": "NothingButA Concrete Calculator",
+      "h1": "Concrete Calculator",
+      "style_count": 2,
+      "input_count": 5,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\conversion-rate-calculator\\index.html",
+      "relative": "conversion-rate-calculator\\index.html",
+      "title": "NothingButA Conversion Rate Calculator",
+      "h1": "Conversion Rate Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\days-between-dates-calculator\\index.html",
+      "relative": "days-between-dates-calculator\\index.html",
+      "title": "NothingButA Days Between Dates Calculator",
+      "h1": "Days Between Dates Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 4,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\debt-payoff-calculator\\index.html",
+      "relative": "debt-payoff-calculator\\index.html",
+      "title": "Nothing But A Debt Payoff Calculator",
+      "h1": "See your debt payoff path in seconds.",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 8,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\discount-calculator\\index.html",
+      "relative": "discount-calculator\\index.html",
+      "title": "NothingButA Discount Calculator",
+      "h1": "Discount Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\emergency-fund-calculator\\index.html",
+      "relative": "emergency-fund-calculator\\index.html",
+      "title": "NothingButA Emergency Fund Calculator",
+      "h1": "Emergency Fund Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\flooring-calculator\\index.html",
+      "relative": "flooring-calculator\\index.html",
+      "title": "NothingButA Flooring Calculator",
+      "h1": "Flooring Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\freelance-rate-calculator\\index.html",
+      "relative": "freelance-rate-calculator\\index.html",
+      "title": "NothingButA Freelance Rate Calculator",
+      "h1": "Freelance Rate Calculator",
+      "style_count": 2,
+      "input_count": 5,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\hourly-to-salary-calculator\\index.html",
+      "relative": "hourly-to-salary-calculator\\index.html",
+      "title": "NothingButA Hourly To Salary Calculator",
+      "h1": "Hourly To Salary Calculator",
+      "style_count": 2,
+      "input_count": 3,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\index.html",
+      "relative": "index.html",
+      "title": "NothingButA Tools",
+      "h1": "One clear tool for one clear job.",
+      "style_count": 1,
+      "input_count": 0,
+      "button_count": 0,
+      "card_mentions": 25,
+      "result_mentions": 0,
+      "has_dropdown": false,
+      "has_root_option": false,
+      "opportunities": [
+        "could_make_result_area_more_prominent"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\loan-early-payoff-calculator\\index.html",
+      "relative": "loan-early-payoff-calculator\\index.html",
+      "title": "NothingButA Loan Early Payoff Calculator",
+      "h1": "Loan Early Payoff Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 6,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\mortgage-payment-calculator\\index.html",
+      "relative": "mortgage-payment-calculator\\index.html",
+      "title": "NothingButA Mortgage Payment Calculator",
+      "h1": "Mortgage Payment Calculator",
+      "style_count": 2,
+      "input_count": 5,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paint-coverage-calculator\\index.html",
+      "relative": "paint-coverage-calculator\\index.html",
+      "title": "NothingButA Paint Coverage Calculator",
+      "h1": "Paint Coverage Calculator",
+      "style_count": 2,
+      "input_count": 6,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paycheck-estimator\\index.html",
+      "relative": "paycheck-estimator\\index.html",
+      "title": "NothingButA Paycheck Take-Home Estimator",
+      "h1": "Paycheck Take-Home Estimator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\percentage-change-calculator\\index.html",
+      "relative": "percentage-change-calculator\\index.html",
+      "title": "NothingButA Percentage Change Calculator",
+      "h1": "Percentage Change Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 6,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\recipe-scale-calculator\\index.html",
+      "relative": "recipe-scale-calculator\\index.html",
+      "title": "NothingButA Recipe Scale Calculator",
+      "h1": "Recipe Scale Calculator",
+      "style_count": 2,
+      "input_count": 3,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\rent-affordability-calculator\\index.html",
+      "relative": "rent-affordability-calculator\\index.html",
+      "title": "NothingButA Rent Affordability Calculator",
+      "h1": "Rent Affordability Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 6,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\roi-calculator\\index.html",
+      "relative": "roi-calculator\\index.html",
+      "title": "NothingButA Simple ROI Calculator",
+      "h1": "Simple ROI Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\sales-tax-calculator\\index.html",
+      "relative": "sales-tax-calculator\\index.html",
+      "title": "NothingButA Sales Tax Calculator",
+      "h1": "Sales Tax Calculator",
+      "style_count": 2,
+      "input_count": 2,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\savings-goal-calculator\\index.html",
+      "relative": "savings-goal-calculator\\index.html",
+      "title": "NothingButA Savings Goal Calculator",
+      "h1": "Savings Goal Calculator",
+      "style_count": 2,
+      "input_count": 3,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\time-card-calculator\\index.html",
+      "relative": "time-card-calculator\\index.html",
+      "title": "NothingButA Time Card Calculator",
+      "h1": "Time Card Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\tip-calculator\\index.html",
+      "relative": "tip-calculator\\index.html",
+      "title": "NothingButA Tip Calculator",
+      "h1": "Tip Calculator",
+      "style_count": 2,
+      "input_count": 3,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\unit-price-calculator\\index.html",
+      "relative": "unit-price-calculator\\index.html",
+      "title": "NothingButA Unit Price Calculator",
+      "h1": "Unit Price Calculator",
+      "style_count": 2,
+      "input_count": 4,
+      "button_count": 1,
+      "card_mentions": 1,
+      "result_mentions": 5,
+      "has_dropdown": true,
+      "has_root_option": false,
+      "opportunities": [
+        "could_use_stronger_card_layout"
+      ]
+    }
+  ]
+}

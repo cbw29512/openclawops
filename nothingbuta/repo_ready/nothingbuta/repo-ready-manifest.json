@@ -1,0 +1,22 @@
+{
+    "manifest_id":  "nothingbuta-repo-ready-nba-util-0001-v1",
+    "created_at":  "2026-05-20T15:05:00-04:00",
+    "state":  "repo_publish_staging_ready",
+    "release_id":  "nba-util-0001-v1",
+    "candidate_id":  "nba-util-0001",
+    "site_name":  "Nothing But A Debt Payoff Calculator",
+    "repo_ready_root":  "nothingbuta/repo_ready/nothingbuta",
+    "github_pages_source":  "docs",
+    "local_repo_page_path":  "docs/nothingbuta/debt-payoff-calculator/index.html",
+    "recommended_public_path":  "/nothingbuta/debt-payoff-calculator/",
+    "source_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "repo_ready_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "github_api_required":  false,
+    "git_init_allowed":  false,
+    "commit_allowed":  false,
+    "push_allowed":  false,
+    "publish_allowed":  false,
+    "external_action_allowed":  false,
+    "final_chris_approval_required":  true,
+    "next_required_decision":  "Approve creating or using a GitHub repo before any git init, commit, push, or GitHub Pages enablement."
+}

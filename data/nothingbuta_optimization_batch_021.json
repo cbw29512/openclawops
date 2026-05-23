@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T21:04:43-04:00",
+  "batch_id": "nothingbuta-optimization-batch-021",
+  "target_slug": "time-card-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\time-card-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\time-card-calculator-before-optimization-021-20260521-210443.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_and_related_links"
+  ],
+  "problems": []
+}

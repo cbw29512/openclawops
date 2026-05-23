@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-05-21T15:45:18-04:00",
+  "purpose": "Replace weak NothingButA slots with evidence-backed single-purpose app/tool candidates.",
+  "replaces": [
+    {
+      "old_name": "Calories Per Serving Calculator",
+      "old_slug": "calories-per-serving-calculator",
+      "reason": "Health/nutrition trust risk unless scoped very narrowly; weaker fit for immediate 24-site batch."
+    },
+    {
+      "old_name": "Age Calculator",
+      "old_slug": "age-calculator",
+      "reason": "Likely broad search demand but weak monetization and low strategic value."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Conversion Rate Calculator",
+      "slug": "conversion-rate-calculator",
+      "category": "business",
+      "formula": "conversionrate",
+      "decision": "build_candidate",
+      "evidence_level": "high",
+      "score": 88,
+      "search_intent": [
+        "conversion rate calculator",
+        "website conversion rate calculator",
+        "marketing conversion rate calculator",
+        "sales conversion rate calculator"
+      ],
+      "inputs": [
+        [
+          "visitors",
+          "Visitors",
+          "Total visitors, clicks, leads, or opportunities",
+          "1000"
+        ],
+        [
+          "conversions",
+          "Conversions",
+          "Number of purchases, signups, leads, or completed actions",
+          "50"
+        ]
+      ],
+      "formula_description": "conversion rate = conversions / visitors * 100",
+      "competitor_sources": [
+        {
+          "name": "SE Ranking Conversion Rate Calculator",
+          "url": "https://seranking.com/free-tools/conversion-rate-calculator.html"
+        },
+        {
+          "name": "WebFX Conversion Rate Calculator",
+          "url": "https://www.webfx.com/tools/conversion-rate-calculator/"
+        },
+        {
+          "name": "Ignite Digital Conversion Rate Calculator",
+          "url": "https://ignitedigital.com/resources/tools/crf/"
+        }
+      ],
+      "monetization_path": "Future B2B SEO/marketing affiliate, lead magnet, newsletter, or ads after traffic approval.",
+      "trust_risk": "low_medium",
+      "notes": "Keep advice generic. Do not promise revenue growth."
+    },
+    {
+      "name": "Churn Rate Calculator",
+      "slug": "churn-rate-calculator",
+      "category": "business",
+      "formula": "churnrate",
+      "decision": "build_candidate",
+      "evidence_level": "high",
+      "score": 86,
+      "search_intent": [
+        "churn rate calculator",
+        "customer churn calculator",
+        "SaaS churn rate calculator",
+        "retention rate calculator"
+      ],
+      "inputs": [
+        [
+          "starting",
+          "Customers at start",
+          "Customers at the beginning of the period",
+          "1000"
+        ],
+        [
+          "lost",
+          "Customers lost",
+          "Customers who cancelled or were lost during the period",
+          "40"
+        ]
+      ],
+      "formula_description": "churn rate = customers lost / customers at start * 100",
+      "competitor_sources": [
+        {
+          "name": "Yotpo Churn Rate Calculator",
+          "url": "https://www.yotpo.com/tools/churn-rate-calculator/"
+        },
+        {
+          "name": "Amplitude Churn Rate Calculator",
+          "url": "https://amplitude.com/calculate/churn-rate"
+        },
+        {
+          "name": "Affonso SaaS Churn Calculator",
+          "url": "https://affonso.io/resources/saas-churn-calculator"
+        }
+      ],
+      "monetization_path": "Future SaaS/business affiliate, founder tools cluster, newsletter, or ads after traffic approval.",
+      "trust_risk": "low_medium",
+      "notes": "Keep benchmark claims out unless sourced. Tool should calculate only."
+    }
+  ],
+  "safety": {
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false,
+    "requires_chris_approval_before_external_action": true
+  }
+}

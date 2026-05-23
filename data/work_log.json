@@ -1,0 +1,22 @@
+﻿{
+    "schema_version":  "1.0",
+    "entries":  [
+                    {
+                        "event":  "Nova local assistant reached LOCAL_AGENT_READY",
+                        "status":  "success",
+                        "notes":  "OpenClaw, Ollama, llama3:latest, TUI, and identity are working."
+                    },
+                    {
+                        "event":  "Money Scout selected active research-only experiment",
+                        "status":  "success",
+                        "created_at":  "2026-05-18 20:59:37 -04:00",
+                        "notes":  "Selected ms-0002: PushButtonTools conversion and pricing follow-up packet. No external action performed."
+                    },
+                    {
+                        "event":  "Created PushButtonTools QA evidence packet",
+                        "status":  "success",
+                        "created_at":  "2026-05-18 21:02:04 -04:00",
+                        "notes":  "Created local-only QA checklist and evidence packet for exp-0001 / ms-0002. No external action performed."
+                    }
+                ]
+}

@@ -1,0 +1,65 @@
+﻿{
+    "generated_at":  "2026-05-21T21:29:35",
+    "status":  "PASS",
+    "module_line_counts":  [
+                               {
+                                   "Name":  "aggregate.py",
+                                   "Lines":  65,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "analyzer.py",
+                                   "Lines":  26,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "classify.py",
+                                   "Lines":  42,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "parser.py",
+                                   "Lines":  109,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "reporting.py",
+                                   "Lines":  63,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "runner.py",
+                                   "Lines":  89,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "slugging.py",
+                                   "Lines":  48,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "state.py",
+                                   "Lines":  25,
+                                   "Over150":  false
+                               },
+                               {
+                                   "Name":  "__init__.py",
+                                   "Lines":  5,
+                                   "Over150":  false
+                               }
+                           ],
+    "v2_status":  "PASS",
+    "selftest_status":  "PASS",
+    "fake_records_loaded":  3,
+    "opportunities_detected":  3,
+    "safety_gates":  {
+                         "commit":  false,
+                         "push":  false,
+                         "publish":  false,
+                         "ads":  false,
+                         "affiliate_links":  false,
+                         "lead_capture":  false,
+                         "outreach":  false,
+                         "spending":  false
+                     }
+}

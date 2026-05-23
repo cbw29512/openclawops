@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Money Scout Command Center</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div>
+            <p class="eyebrow">Local-only command center</p>
+            <h1>Nova Money Scout</h1>
+            <p>Discover. Rank. Simulate. Learn. Stay gated.</p>
+        </div>
+        <div class="status-card">
+            <strong>Cycle</strong>
+            <span>{{ state.system.cycle_id }}</span>
+            <small>Status: {{ state.system.cycle_status }}</small>
+        </div>
+    </header>
+
+    <main>
+
+<!-- === NOTHINGBUTA_MAIN_LINK START === -->
+<div id="nothingbuta-main-link" style="margin: 16px 0; padding: 14px; border: 1px solid rgba(148,163,184,.35); border-radius: 14px;">
+  <strong>NothingButA Sites</strong>
+  <p style="margin: 6px 0 10px 0;">Review local-only website/tool ideas, previews, Big Brother feedback, approvals, regenerations, and archives.</p>
+  <a href="/nothingbuta" style="display:inline-block; padding:10px 14px; border-radius:10px; background:#86efac; color:#052e16; font-weight:700; text-decoration:none;">
+    Open NothingButA Review Page
+  </a>
+</div>
+<!-- === NOTHINGBUTA_MAIN_LINK END === -->
+        <section class="grid">
+            <article class="metric pass"><span>Audit Pass</span><strong>{{ state.system.audit_pass }}</strong></article>
+            <article class="metric warn"><span>Audit Warn</span><strong>{{ state.system.audit_warn }}</strong></article>
+            <article class="metric fail"><span>Audit Fail</span><strong>{{ state.system.audit_fail }}</strong></article>
+            <article class="metric"><span>Needs Chris</span><strong>{{ state.system.needs_chris_signal }}</strong></article>
+            <article class="metric"><span>Positive</span><strong>{{ state.system.positive_queue }}</strong></article>
+            <article class="metric"><span>Idea Pit</span><strong>{{ state.system.idea_pit }}</strong></article>
+        </section>
+
+        <section class="safety">
+            <strong>Safety Gates:</strong>
+            External Actions: OFF · Spending: OFF · Outreach: OFF · Publishing: OFF
+        </section>
+
+
+        <section id="activity-feed" class="activity-panel">
+            <div class="card-topline">
+                <h2>Live Activity Feed</h2>
+                <span id="activity-status" class="activity-status">connecting...</span>
+            </div>
+            <p class="subtle">Observable Nova operations. Polls every 3 seconds. New rows appear when Nova writes new events.</p>
+<div class="activity-poll-meta">
+    <span id="activity-last-checked">Last checked: never</span>
+    <span id="activity-last-event">Newest event: unknown</span>
+</div>
+            <div id="activity-refresh-notice" class="activity-refresh-notice hidden">
+    New Nova cycle detected. Refreshing dashboard cards...
+</div>
+<div id="activity-events" class="activity-events"></div>
+        </section>
+        <section>
+            <h2>Latest Simulation Run</h2>
+            <p class="subtle">Run: {{ state.simulation.run_id }} · Generated: {{ state.simulation.generated_at }} · Mode: {{ state.simulation.mode }}</p>
+
+            {% for attempt in state.simulation.attempts %}
+            <article class="card simulation">
+                <div class="card-topline">
+                    <h3>{{ attempt.item_id }}</h3>
+                    <span class="score">Score {{ attempt.simulation_score }}</span>
+                </div>
+                <p><strong>{{ attempt.title }}</strong></p>
+                <p>Recommendation: {{ attempt.recommendation }}</p>
+                <p>{{ attempt.next_local_action }}</p>
+                <p class="locked">Revenue ${{ attempt.measured_revenue_usd }} · Spend ${{ attempt.measured_spend_usd }} · ROI {{ attempt.measured_roi_percent }}% · External Action Allowed: {{ attempt.external_action_allowed }}</p>
+            </article>
+            {% endfor %}
+        </section>
+
+        <section>
+            <h2>Learning Loop</h2>
+            <p class="subtle">Updated: {{ state.learning.updated_at }}</p>
+
+            <section class="grid compact">
+                <article class="metric"><span>Simulation Attempts</span><strong>{{ state.learning.summary.simulation_attempts }}</strong></article>
+                <article class="metric"><span>High Scores</span><strong>{{ state.learning.summary.high_simulation_scores }}</strong></article>
+                <article class="metric"><span>Weak Scores</span><strong>{{ state.learning.summary.weak_simulation_scores }}</strong></article>
+                <article class="metric"><span>ROI Winners</span><strong>{{ state.learning.summary.roi_winners }}</strong></article>
+            </section>
+
+            <div class="two-column">
+                <article class="card learning">
+                    <h3>Patterns To Repeat</h3>
+                    {% for pattern in state.learning.patterns_to_repeat %}
+                    <p>• {{ pattern }}</p>
+                    {% endfor %}
+                </article>
+
+                <article class="card learning">
+                    <h3>Patterns To Avoid</h3>
+                    {% for pattern in state.learning.patterns_to_avoid %}
+                    <p>• {{ pattern }}</p>
+                    {% endfor %}
+                </article>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Finder Fee Category Simulation</h2>
+            <p class="subtle">Run: {{ state.finder_fee['run_id'] }} · Generated: {{ state.finder_fee['generated_at'] }} · Mode: {{ state.finder_fee['mode'] }}</p>
+
+            {% for cat in state.finder_fee['top_categories'] %}
+            <article class="card finder-category">
+                <div class="card-topline">
+                    <h3>{{ cat['category_name'] }}</h3>
+                    <span class="score">Score {{ cat['simulation_score'] }}</span>
+                </div>
+                <p><strong>Buyer:</strong> {{ cat['target_buyer'] }}</p>
+                <p>
+                    Estimated Item Budget: ${{ cat['estimated_item_budget_usd'] }} ·
+                    Upfront Fee: ${{ cat['upfront_fee_usd'] }} ·
+                    1% Success Fee: ${{ cat['estimated_success_fee_usd'] }} ·
+                    Total Possible Fee: ${{ cat['total_possible_fee_usd'] }}
+                </p>
+                <p>Risk: {{ cat['category_risk'] }} · Recommendation: {{ cat['recommendation'] }}</p>
+                <p>{{ cat['next_local_action'] }}</p>
+                <p class="locked">Real World Allowed: {{ cat['real_world_allowed'] }} · External Action Allowed: {{ cat['external_action_allowed'] }}</p>
+            </article>
+            {% endfor %}
+        </section>
+        <section>
+            <h2>Current Work Order</h2>
+            <p class="subtle">Work Order: {{ state.work_order.work_order_id }} · Generated: {{ state.work_order.generated_at }}</p>
+
+            {% for item in state.work_order['items'] %}
+            <article class="card work">
+                <h3>#{{ item.rank }} · {{ item.title }}</h3>
+                <p><strong>{{ item.item_id }}</strong> · Priority {{ item.priority_index }} · {{ item.work_type }}</p>
+                <p>{{ item.local_action }}</p>
+                <p><strong>External Action Allowed:</strong> {{ item.external_action_allowed }}</p>
+            </article>
+            {% endfor %}
+        </section>
+
+        <section>
+            <h2>Positive Queue</h2>
+            {% for item in state.queues.positive_queue %}
+            <article class="card positive">
+                <h3>{{ item.title }}</h3>
+                <p><strong>{{ item.item_id }}</strong> · Priority {{ item.priority_index }} · {{ item.evidence_quality }}</p>
+                <p>{{ item.recommended_next_action }}</p>
+                <form method="post" action="/vote" class="actions">
+                    <input type="hidden" name="item_id" value="{{ item.item_id }}">
+                    <button name="vote_value" value="approve">Boost +1</button>
+                    <button name="vote_value" value="disapprove" class="bury">Bury -1</button>
+                </form>
+            </article>
+            {% endfor %}
+        </section>
+
+        <section>
+            <h2>Needs Chris Signal</h2>
+            {% for item in state.queues.needs_chris_signal %}
+            <article class="card">
+                <h3>{{ item.title }}</h3>
+                <p><strong>{{ item.item_id }}</strong> · Priority {{ item.priority_index }} · {{ item.evidence_quality }}</p>
+                <p><a href="{{ item.source_url }}" target="_blank" rel="noopener">Open source</a></p>
+                <p>{{ item.recommended_next_action }}</p>
+                <form method="post" action="/vote" class="actions">
+                    <input type="hidden" name="item_id" value="{{ item.item_id }}">
+                    <button name="vote_value" value="approve">Boost +1</button>
+                    <button name="vote_value" value="disapprove" class="bury">Bury -1</button>
+                </form>
+            </article>
+            {% endfor %}
+        </section>
+
+        <section>
+            <h2>Idea Pit</h2>
+            {% for item in state.queues.idea_pit %}
+            <article class="card pit">
+                <h3>{{ item.title }}</h3>
+                <p><strong>{{ item.item_id }}</strong> · Priority {{ item.priority_index }} · {{ item.evidence_quality }}</p>
+                <p>{{ item.recommended_next_action }}</p>
+                <form method="post" action="/vote" class="actions">
+                    <input type="hidden" name="item_id" value="{{ item.item_id }}">
+                    <button name="vote_value" value="approve">Revive +1</button>
+                    <button name="vote_value" value="disapprove" class="bury">Bury -1</button>
+                </form>
+            </article>
+            {% endfor %}
+        </section>
+</main>
+
+    <script>
+        window.NOVA_PAGE_CYCLE_ID = "{{ state.system.cycle_id }}";
+        window.NOVA_REFRESH_SCHEDULED = false;
+    </script>
+
+    <script>
+        function detectNewestCycleId(events) {
+            try {
+                for (const event of events) {
+                    const cycleId = String(event.cycle_id || "");
+                    if (cycleId.startsWith("ops-")) {
+                        return cycleId;
+                    }
+                }
+            } catch (error) {
+                return "";
+            }
+
+            return "";
+        }
+
+        function scheduleDashboardRefresh(newCycleId) {
+            const notice = document.getElementById("activity-refresh-notice");
+
+            if (window.NOVA_REFRESH_SCHEDULED) {
+                return;
+            }
+
+            if (!newCycleId || newCycleId === window.NOVA_PAGE_CYCLE_ID) {
+                return;
+            }
+
+            window.NOVA_REFRESH_SCHEDULED = true;
+
+            if (notice) {
+                notice.classList.remove("hidden");
+                notice.textContent = "New Nova cycle detected: " + newCycleId + ". Refreshing dashboard cards...";
+            }
+
+            setTimeout(() => {
+                window.location.reload();
+            }, 1500);
+        }
+
+        async function loadNovaActivity() {
+            const statusEl = document.getElementById("activity-status");
+            const container = document.getElementById("activity-events");
+const activityLastChecked = document.getElementById("activity-last-checked");
+const activityLastEvent = document.getElementById("activity-last-event");
+
+            if (!statusEl || !container) {
+                return;
+            }
+
+            try {
+                const response = await fetch("/activity", { cache: "no-store" });
+
+                if (!response.ok) {
+                    throw new Error("HTTP " + response.status);
+                }
+
+                const payload = await response.json();
+                const events = (payload.events || []).slice(-40).reverse();
+const newestCycleId = detectNewestCycleId(events);
+scheduleDashboardRefresh(newestCycleId);
+
+                const checkedAt = new Date().toLocaleTimeString();
+const newestEvent = events.length > 0 ? events[0].timestamp : "none";
+
+statusEl.textContent = "polling · " + (payload.event_count || 0) + " events";
+statusEl.classList.toggle("pulse");
+
+if (activityLastChecked) {
+    activityLastChecked.textContent = "Last checked: " + checkedAt;
+}
+
+if (activityLastEvent) {
+    activityLastEvent.textContent = "Newest event: " + newestEvent;
+}
+
+                container.innerHTML = events.map((event) => {
+                    const level = String(event.level || "INFO").toLowerCase();
+                    const time = event.timestamp || "";
+                    const step = event.step_name ? `<span class="activity-step">${event.step_name}</span>` : "";
+                    const cycle = event.cycle_id ? `<span class="activity-cycle">${event.cycle_id}</span>` : "";
+                    const message = event.message || event.event_type || "event";
+
+                    return `
+                        <article class="activity-event ${level}">
+                            <div class="activity-meta">
+                                <span>${time}</span>
+                                ${cycle}
+                                ${step}
+                                <span>${event.level || "INFO"}</span>
+                            </div>
+                            <p>${message}</p>
+                        </article>
+                    `;
+                }).join("");
+
+            } catch (error) {
+                statusEl.textContent = "activity feed error";
+                container.innerHTML = `<article class="activity-event fail"><p>${error}</p></article>`;
+            }
+        }
+
+        loadNovaActivity();
+        setInterval(loadNovaActivity, 3000);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+

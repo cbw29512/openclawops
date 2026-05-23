@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T20:43:07-04:00",
+  "batch_id": "nothingbuta-optimization-batch-009",
+  "target_slug": "churn-rate-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\churn-rate-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\churn-rate-calculator-before-optimization-009-20260521-204307.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_and_related_links"
+  ],
+  "problems": []
+}

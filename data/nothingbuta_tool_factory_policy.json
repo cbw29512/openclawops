@@ -1,0 +1,48 @@
+{
+    "policy_id":  "nothingbuta-tool-factory-policy",
+    "created_at":  "2026-05-20T19:18:09-04:00",
+    "state":  "active",
+    "mission":  "Build many high-quality single-purpose utility candidates locally, then publish only approved winners.",
+    "factory_lane":  {
+                         "delete_archive_allowed":  true,
+                         "regenerate_allowed":  true,
+                         "local_candidate_limit":  "unlimited_with_quality_gates",
+                         "big_brother_review_required":  true,
+                         "chris_review_required":  true,
+                         "local_candidates_allowed":  true,
+                         "research_allowed":  "local_or_compliant_public_research_only",
+                         "build_allowed":  "local_preview_only"
+                     },
+    "live_lane":  {
+                      "analytics_allowed":  false,
+                      "automatic_commit_allowed":  false,
+                      "lead_capture_allowed":  false,
+                      "github_pages_change_allowed":  false,
+                      "automatic_push_allowed":  false,
+                      "affiliate_links_allowed":  false,
+                      "ads_allowed":  false,
+                      "automatic_publish_allowed":  false
+                  },
+    "required_candidate_states":  [
+                                      "idea",
+                                      "research_ready",
+                                      "local_build_ready",
+                                      "local_preview_ready",
+                                      "big_brother_review_required",
+                                      "regeneration_required",
+                                      "chris_review_required",
+                                      "approved_for_staging",
+                                      "release_frozen",
+                                      "approved_for_publish"
+                                  ],
+    "quality_rules":  [
+                          "Every public tool must solve one clear problem.",
+                          "Every tool must be mobile-first.",
+                          "Every tool must have a clean URL folder under docs.",
+                          "No fake tools may be shown as live.",
+                          "No internal workflow language may appear on public pages.",
+                          "No copied Reddit/forum/competitor text.",
+                          "No ads, affiliate links, or lead capture until explicitly approved.",
+                          "Each tool must pass local audit before commit/push/publish."
+                      ]
+}

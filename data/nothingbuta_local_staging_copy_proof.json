@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-05-21T16:00:22-04:00",
+  "purpose": "Proof of local-only staging copy for NothingButA 24-ready batch.",
+  "copied_count": 24,
+  "verified_count": 24,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "safety": {
+    "local_staging_copy_completed": true,
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false
+  },
+  "results": [
+    {
+      "name": "Break-Even Calculator",
+      "slug": "break-even-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\break-even-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\break-even-calculator\\index.html",
+      "source_sha256": "91985cc5165af86eea59c6d138a5e56bf8c922f4273b21e66b42477ff197cd8b",
+      "staged_sha256": "91985cc5165af86eea59c6d138a5e56bf8c922f4273b21e66b42477ff197cd8b",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Car Payment Calculator",
+      "slug": "car-payment-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\car-payment-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\car-payment-calculator\\index.html",
+      "source_sha256": "b4264cb58ab606fc4bce0e838cf04c989c1b088eb1a29c3a0383c4850afc6200",
+      "staged_sha256": "b4264cb58ab606fc4bce0e838cf04c989c1b088eb1a29c3a0383c4850afc6200",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Churn Rate Calculator",
+      "slug": "churn-rate-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\churn-rate-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\churn-rate-calculator\\index.html",
+      "source_sha256": "75fbf4b2c90f075cd23b26a0c877ca66075583bf972ce6e75c34a3d4774aa036",
+      "staged_sha256": "75fbf4b2c90f075cd23b26a0c877ca66075583bf972ce6e75c34a3d4774aa036",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Concrete Calculator",
+      "slug": "concrete-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\concrete-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\concrete-calculator\\index.html",
+      "source_sha256": "796792f162f3cd93112025740922149c366b950d5c87bd3289078545caa5373b",
+      "staged_sha256": "796792f162f3cd93112025740922149c366b950d5c87bd3289078545caa5373b",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Conversion Rate Calculator",
+      "slug": "conversion-rate-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\conversion-rate-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\conversion-rate-calculator\\index.html",
+      "source_sha256": "448bdb35e67f729764572821396a2523f1949b1e45198a146e4a22b9493f7b34",
+      "staged_sha256": "448bdb35e67f729764572821396a2523f1949b1e45198a146e4a22b9493f7b34",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Days Between Dates Calculator",
+      "slug": "days-between-dates-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\days-between-dates-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\days-between-dates-calculator\\index.html",
+      "source_sha256": "d5a09e60c1f96521e268982b5de62e9e74ff27802e81931a4747e43799ff6a7d",
+      "staged_sha256": "d5a09e60c1f96521e268982b5de62e9e74ff27802e81931a4747e43799ff6a7d",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Discount Calculator",
+      "slug": "discount-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\discount-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\discount-calculator\\index.html",
+      "source_sha256": "54e8cee12194669c5cf3b8e1fbea2ff755b30b7d9adc1677fad3821c7b630caa",
+      "staged_sha256": "54e8cee12194669c5cf3b8e1fbea2ff755b30b7d9adc1677fad3821c7b630caa",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Emergency Fund Calculator",
+      "slug": "emergency-fund-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\emergency-fund-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\emergency-fund-calculator\\index.html",
+      "source_sha256": "7f58b8edbca327730ae43b27a8aea97971efb7cf04894b529259fc8c72e8c056",
+      "staged_sha256": "7f58b8edbca327730ae43b27a8aea97971efb7cf04894b529259fc8c72e8c056",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Flooring Calculator",
+      "slug": "flooring-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\flooring-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\flooring-calculator\\index.html",
+      "source_sha256": "109eaa11f717f09c1ca271d9de6adef805cbd211ba6226fa75049b23143f60e5",
+      "staged_sha256": "109eaa11f717f09c1ca271d9de6adef805cbd211ba6226fa75049b23143f60e5",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Freelance Rate Calculator",
+      "slug": "freelance-rate-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\freelance-rate-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\freelance-rate-calculator\\index.html",
+      "source_sha256": "79cc42ee8bfcc9cba1998d42de686b1c7debf600a2e3a9d3b485ec6436d5bc47",
+      "staged_sha256": "79cc42ee8bfcc9cba1998d42de686b1c7debf600a2e3a9d3b485ec6436d5bc47",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Hourly To Salary Calculator",
+      "slug": "hourly-to-salary-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\hourly-to-salary-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\hourly-to-salary-calculator\\index.html",
+      "source_sha256": "75b3fe6980d2e0ed4fe5ee6f8f454e66879555bf831b0601b18b0625831e7b53",
+      "staged_sha256": "75b3fe6980d2e0ed4fe5ee6f8f454e66879555bf831b0601b18b0625831e7b53",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Loan Early Payoff Calculator",
+      "slug": "loan-early-payoff-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\loan-early-payoff-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\loan-early-payoff-calculator\\index.html",
+      "source_sha256": "59f114e17d7b7e7b53d9fce3afb8522db0acaf523c4124f2bd5d3985dfce3f80",
+      "staged_sha256": "59f114e17d7b7e7b53d9fce3afb8522db0acaf523c4124f2bd5d3985dfce3f80",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Mortgage Payment Calculator",
+      "slug": "mortgage-payment-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\mortgage-payment-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\mortgage-payment-calculator\\index.html",
+      "source_sha256": "d95a2d43136181a57bb9a26ab864713f230abc44a287ad7daafcb6fb9200c79c",
+      "staged_sha256": "d95a2d43136181a57bb9a26ab864713f230abc44a287ad7daafcb6fb9200c79c",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Paint Coverage Calculator",
+      "slug": "paint-coverage-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\paint-coverage-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\paint-coverage-calculator\\index.html",
+      "source_sha256": "616986c216e69d9b14889f92445f1dce17e314ad84129ccb0243478ec679f878",
+      "staged_sha256": "616986c216e69d9b14889f92445f1dce17e314ad84129ccb0243478ec679f878",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Paycheck Take-Home Estimator",
+      "slug": "paycheck-estimator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\paycheck-estimator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\paycheck-estimator\\index.html",
+      "source_sha256": "c54ea318653c609c8d3c46c5d3daea12cf7f483c827c54b78e43c7166e991654",
+      "staged_sha256": "c54ea318653c609c8d3c46c5d3daea12cf7f483c827c54b78e43c7166e991654",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Percentage Change Calculator",
+      "slug": "percentage-change-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\percentage-change-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\percentage-change-calculator\\index.html",
+      "source_sha256": "595a17d864d0fa66f87087b00f828047448d73d7733c36a09f4db75c02f2731b",
+      "staged_sha256": "595a17d864d0fa66f87087b00f828047448d73d7733c36a09f4db75c02f2731b",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Recipe Scale Calculator",
+      "slug": "recipe-scale-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\recipe-scale-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\recipe-scale-calculator\\index.html",
+      "source_sha256": "73fae64eaddec9783563b5a78f29b78dce0305c8f3d3291bf46cb4056bfd59ff",
+      "staged_sha256": "73fae64eaddec9783563b5a78f29b78dce0305c8f3d3291bf46cb4056bfd59ff",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Rent Affordability Calculator",
+      "slug": "rent-affordability-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\rent-affordability-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\rent-affordability-calculator\\index.html",
+      "source_sha256": "58b38a63f7db9dc31a3fd23073b498b4f5b04bd9ba6453b714f267805da1a147",
+      "staged_sha256": "58b38a63f7db9dc31a3fd23073b498b4f5b04bd9ba6453b714f267805da1a147",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Sales Tax Calculator",
+      "slug": "sales-tax-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\sales-tax-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\sales-tax-calculator\\index.html",
+      "source_sha256": "43e96faee68218464e6d2ff367f24a1f053ef5452ac59c57f2c37d3197c6a24b",
+      "staged_sha256": "43e96faee68218464e6d2ff367f24a1f053ef5452ac59c57f2c37d3197c6a24b",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Savings Goal Calculator",
+      "slug": "savings-goal-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\savings-goal-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\savings-goal-calculator\\index.html",
+      "source_sha256": "b5d5c455405ecd688f8dccd77425802682b1e54e87d8874924ebae14c3e8af79",
+      "staged_sha256": "b5d5c455405ecd688f8dccd77425802682b1e54e87d8874924ebae14c3e8af79",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Simple ROI Calculator",
+      "slug": "roi-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\roi-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\roi-calculator\\index.html",
+      "source_sha256": "9bb65704738ef6f093e2431f7594c8f6929ebce96e06e43e241d72f738891dd6",
+      "staged_sha256": "9bb65704738ef6f093e2431f7594c8f6929ebce96e06e43e241d72f738891dd6",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Time Card Calculator",
+      "slug": "time-card-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\time-card-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\time-card-calculator\\index.html",
+      "source_sha256": "bf2e364c320feec839533bcada373ffdb1215055056b82ac2a0081a73f09630d",
+      "staged_sha256": "bf2e364c320feec839533bcada373ffdb1215055056b82ac2a0081a73f09630d",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Tip Calculator",
+      "slug": "tip-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\tip-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\tip-calculator\\index.html",
+      "source_sha256": "7d7527fa48919d5a9879cca19f3c1e2a2181abe82cb15322b1df93550d072cae",
+      "staged_sha256": "7d7527fa48919d5a9879cca19f3c1e2a2181abe82cb15322b1df93550d072cae",
+      "copied": true,
+      "verified": true
+    },
+    {
+      "name": "Unit Price Calculator",
+      "slug": "unit-price-calculator",
+      "source": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\factory\\candidates\\unit-price-calculator\\index.html",
+      "destination": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\staging\\unit-price-calculator\\index.html",
+      "source_sha256": "aa33f35d4eaca4c0c1455a4387d3576099a9c7a51bbd78388c2cb4728d94b2a8",
+      "staged_sha256": "aa33f35d4eaca4c0c1455a4387d3576099a9c7a51bbd78388c2cb4728d94b2a8",
+      "copied": true,
+      "verified": true
+    }
+  ],
+  "blocked_items": []
+}

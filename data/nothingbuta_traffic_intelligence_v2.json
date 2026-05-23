@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-22T21:26:14-04:00",
+  "status": "PASS",
+  "traffic_source_status": "waiting_for_csv",
+  "csv_files_found": 0,
+  "csv_files": [],
+  "rows_read": 0,
+  "pages_analyzed": 0,
+  "opportunities": [],
+  "safety_gates": {
+    "commit": false,
+    "push": false,
+    "publish": false,
+    "ads": false,
+    "affiliate_links": false,
+    "lead_capture": false,
+    "outreach": false,
+    "spending": false
+  }
+}

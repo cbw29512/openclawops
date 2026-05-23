@@ -1,0 +1,33 @@
+﻿{
+    "schema_version":  "1.0",
+    "updated_at":  "2026-05-18 21:23:57 -04:00",
+    "sources":  [
+                    {
+                        "source_id":  "src-001",
+                        "name":  "Manual internet discoveries",
+                        "source_type":  "manual_url",
+                        "enabled":  true,
+                        "purpose":  "Chris or Nova can paste promising source URLs here before evidence review.",
+                        "trust_level":  "unverified",
+                        "notes":  "Manual intake only. No automated scraping yet."
+                    },
+                    {
+                        "source_id":  "src-002",
+                        "name":  "Existing project signals",
+                        "source_type":  "local_project_context",
+                        "enabled":  true,
+                        "purpose":  "Use Chris\u0027s existing projects as candidate test surfaces.",
+                        "trust_level":  "local_context",
+                        "notes":  "Does not prove market demand by itself."
+                    },
+                    {
+                        "source_id":  "src-003",
+                        "name":  "Public trend or pain-point source",
+                        "source_type":  "future_web_source",
+                        "enabled":  false,
+                        "purpose":  "Placeholder for later verified web source ingestion.",
+                        "trust_level":  "disabled",
+                        "notes":  "Do not enable until the exact source and evidence rules are approved."
+                    }
+                ]
+}

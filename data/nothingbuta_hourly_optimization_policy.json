@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-05-21T15:10:39-04:00",
+  "policy_id": "nothingbuta-hourly-optimization-policy",
+  "mission": "Continuously improve 24 high-performing SEO-optimized single-purpose app/tool sites.",
+  "core_goal": "Each site should do one specific thing easily and well, be useful to real searchers, and grow durable organic traffic over time.",
+  "cadence": {
+    "minimum_check_frequency": "hourly",
+    "applies_to": [
+      "local previews",
+      "staging candidates",
+      "published sites after approval"
+    ]
+  },
+  "hourly_ai_responsibilities": [
+    "check each site/page for broken output, missing preview, or checksum drift",
+    "review SEO title, meta description, H1, FAQ, internal-link opportunities, and search intent fit",
+    "look for UX improvements that make the app easier to use",
+    "identify trust issues, weak wording, missing disclaimers, or thin-content risk",
+    "research better competitor examples and searcher intent patterns",
+    "recommend page improvements as local-only packets",
+    "flag weak/stale sites for replacement research instead of forcing low-quality slots",
+    "preserve winners and improve borderline pages before replacing them"
+  ],
+  "traffic_growth_loop": [
+    "prepare indexing and sitemap recommendations after publish approval",
+    "suggest internal link clusters by topic",
+    "suggest long-tail utility examples only when useful, not spam",
+    "use future Search Console/performance evidence after approval",
+    "feed results back into improvement and replacement decisions"
+  ],
+  "locked_safety_gates": {
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false,
+    "spending_allowed": false,
+    "requires_chris_approval_before_external_action": true
+  }
+}

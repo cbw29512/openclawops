@@ -1,0 +1,84 @@
+﻿{
+    "generated_at":  "2026-05-21T21:12:53",
+    "status":  "PATCHED_AND_PUSHED",
+    "changes_count":  12,
+    "changes":  [
+                    {
+                        "slug":  "car-payment-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  113,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\car-payment-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "concrete-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  110,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\concrete-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "days-between-dates-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  104,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\days-between-dates-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "emergency-fund-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  112,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\emergency-fund-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "flooring-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  117,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\flooring-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "loan-early-payoff-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  109,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\loan-early-payoff-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "paint-coverage-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  105,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paint-coverage-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "percentage-change-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  105,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\percentage-change-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "recipe-scale-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  114,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\recipe-scale-calculator\\index.html"
+                    },
+                    {
+                        "slug":  "sales-tax-calculator",
+                        "action":  "meta_description_shortened",
+                        "description_length":  111,
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\sales-tax-calculator\\index.html"
+                    },
+                    {
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\debt-payoff-calculator\\index.html",
+                        "action":  "schema_added",
+                        "marker":  "nothingbuta-final-debt-payoff-schema"
+                    },
+                    {
+                        "path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\index.html",
+                        "action":  "schema_added",
+                        "marker":  "nothingbuta-final-home-schema"
+                    }
+                ],
+    "blocked_actions":  [
+                            "analytics",
+                            "ads",
+                            "affiliate_links",
+                            "lead_capture",
+                            "outreach"
+                        ]
+}

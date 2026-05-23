@@ -1,0 +1,108 @@
+﻿{
+    "registry_id":  "nothingbuta-utility-registry",
+    "created_at":  "2026-05-20T08:27:17-04:00",
+    "updated_at":  "2026-05-20T08:27:17-04:00",
+    "brand_family":  "NothingButA",
+    "active_candidate_id":  null,
+    "active_candidate_limit":  1,
+    "strategy":  "quality_long_game",
+    "notes":  "Research many, build one, improve weekly, avoid internet flooding.",
+    "candidates":  [
+                       {
+                           "candidate_id":  "nba-util-0001",
+                           "name":  "Nothing But A Debt Payoff Calculator",
+                           "domain_candidate":  "nothingbutadebtpayoffcalculator.com",
+                           "tool_type":  "calculator",
+                           "user_problem":  "Help users compare payoff timelines and interest savings.",
+                           "likely_monetization_later":  [
+                                                             "display_ads",
+                                                             "budgeting_affiliate",
+                                                             "finance_tool_affiliate",
+                                                             "paid_pdf_export"
+                                                         ],
+                           "risk_flags":  [
+                                              "finance_sensitive",
+                                              "needs_plain_disclaimer",
+                                              "competitive_keyword"
+                                          ],
+                           "state":  "research_only",
+                           "priority_score":  9,
+                           "publish_allowed":  false
+                       },
+                       {
+                           "candidate_id":  "nba-util-0002",
+                           "name":  "Nothing But A Budget Calculator",
+                           "domain_candidate":  "nothingbutabudgetcalculator.com",
+                           "tool_type":  "calculator",
+                           "user_problem":  "Help users quickly split income into bills, savings, debt, and spending categories.",
+                           "likely_monetization_later":  [
+                                                             "display_ads",
+                                                             "budgeting_affiliate",
+                                                             "printable_export"
+                                                         ],
+                           "risk_flags":  [
+                                              "finance_sensitive",
+                                              "needs_plain_disclaimer"
+                                          ],
+                           "state":  "research_only",
+                           "priority_score":  8,
+                           "publish_allowed":  false
+                       },
+                       {
+                           "candidate_id":  "nba-util-0003",
+                           "name":  "Nothing But An Invoice Generator",
+                           "domain_candidate":  "nothingbutaninvoicegenerator.com",
+                           "tool_type":  "generator",
+                           "user_problem":  "Help freelancers create a simple invoice quickly without signing up.",
+                           "likely_monetization_later":  [
+                                                             "bookkeeping_affiliate",
+                                                             "business_bank_affiliate",
+                                                             "paid_pdf_export"
+                                                         ],
+                           "risk_flags":  [
+                                              "business_tool_competition",
+                                              "must_not_collect_private_data_without_approval"
+                                          ],
+                           "state":  "research_only",
+                           "priority_score":  8,
+                           "publish_allowed":  false
+                       },
+                       {
+                           "candidate_id":  "nba-util-0004",
+                           "name":  "Nothing But A Tip Calculator",
+                           "domain_candidate":  "nothingbutatipcalculator.com",
+                           "tool_type":  "calculator",
+                           "user_problem":  "Help users calculate tips and split checks fast on mobile.",
+                           "likely_monetization_later":  [
+                                                             "display_ads",
+                                                             "travel_card_affiliate"
+                                                         ],
+                           "risk_flags":  [
+                                              "simple_tool_low_depth",
+                                              "needs_extra_value_to_rank"
+                                          ],
+                           "state":  "research_only",
+                           "priority_score":  6,
+                           "publish_allowed":  false
+                       },
+                       {
+                           "candidate_id":  "nba-util-0005",
+                           "name":  "Nothing But A Magic 8 Ball",
+                           "domain_candidate":  "nothingbutamagic8ball.com",
+                           "tool_type":  "novelty",
+                           "user_problem":  "Fun nostalgic decision toy.",
+                           "likely_monetization_later":  [
+                                                             "display_ads",
+                                                             "social_share"
+                                                         ],
+                           "risk_flags":  [
+                                              "nostalgia_example_only",
+                                              "low_monetization_intent",
+                                              "not_first_serious_candidate"
+                                          ],
+                           "state":  "parked_for_later",
+                           "priority_score":  2,
+                           "publish_allowed":  false
+                       }
+                   ]
+}

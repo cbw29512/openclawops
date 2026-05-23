@@ -1,0 +1,80 @@
+# Secrets / credentials
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+tokens*
+
+# Python / Node junk
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# Big/runtime output
+*.log
+*.zip
+*.7z
+*.tar
+*.gz
+models/
+ollama/
+.cache/
+tmp/
+temp/
+
+# Local backups
+*_backup/
+backups/
+docs_backups/
+staging_archive/
+
+# Runtime logs
+logs/
+reports/*.log
+dashboard/*.log
+
+# Nested virtual environments
+**/.venv/
+**/venv/
+
+# Registry backups
+data/*.bak*
+data/*backup*
+data/*-backup*
+
+# Backup files
+*.bak*
+*.backup*
+*.old
+*.tmp
+
+# Heartbeat spam
+heartbeat/
+
+# Generated reports
+reports/nothingbuta-factory-runs/
+reports/*.json
+
+# Nested git repo already on GitHub
+nothingbuta/github/nothingbuta/
+
+# Python envs
+**/.venv/
+**/venv/
+
+# Registry backups
+data/*.bak*
+data/*backup*
+data/*-backup*
+
+# Runtime junk
+logs/
+*.log

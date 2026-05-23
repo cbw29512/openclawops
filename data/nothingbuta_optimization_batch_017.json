@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T21:04:43-04:00",
+  "batch_id": "nothingbuta-optimization-batch-017",
+  "target_slug": "paint-coverage-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paint-coverage-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\paint-coverage-calculator-before-optimization-017-20260521-210443.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_and_related_links"
+  ],
+  "problems": []
+}

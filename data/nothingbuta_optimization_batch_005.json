@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T19:58:32-04:00",
+  "batch_id": "nothingbuta-optimization-batch-005",
+  "target_slug": "savings-goal-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\savings-goal-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\savings-goal-calculator-before-optimization-005-20260521-195832.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_and_related_links"
+  ],
+  "problems": []
+}

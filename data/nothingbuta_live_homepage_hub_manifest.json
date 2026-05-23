@@ -1,0 +1,29 @@
+{
+    "manifest_id":  "nothingbuta-live-homepage-hub-manifest",
+    "created_at":  "2026-05-20T19:23:52-04:00",
+    "state":  "live_homepage_hub_verified",
+    "repo_url":  "https://github.com/cbw29512/nothingbuta",
+    "branch":  "main",
+    "live_commit":  "99f4e931ec3303168e2dd70f525b8880483fbb74",
+    "remote_commit":  "99f4e931ec3303168e2dd70f525b8880483fbb74",
+    "home_url":  "https://cbw29512.github.io/nothingbuta/",
+    "tool_url":  "https://cbw29512.github.io/nothingbuta/debt-payoff-calculator/",
+    "home_status":  200,
+    "tool_status":  200,
+    "homepage_sha256":  "87A2FA239C3CE734D6C2F8D6E26C77DC76674C0EB3F69B62E8F59D40A0AE522E",
+    "debt_tool_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "live_tools":  [
+                       "debt-payoff-calculator"
+                   ],
+    "planned_tools_visible":  [
+                                  "mortgage-payment-calculator",
+                                  "tip-calculator",
+                                  "paycheck-estimator"
+                              ],
+    "automatic_publish_allowed":  false,
+    "analytics_allowed":  false,
+    "ads_allowed":  false,
+    "affiliate_links_allowed":  false,
+    "lead_capture_allowed":  false,
+    "future_changes_require_chris_approval":  true
+}

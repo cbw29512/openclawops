@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-05-21T21:04:43-04:00",
+  "status": "PASS",
+  "targets_attempted": 14,
+  "targets_passed": 14,
+  "targets_failed": 0,
+  "results": [
+    {
+      "slug": "car-payment-calculator",
+      "batch_number": "011",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "concrete-calculator",
+      "batch_number": "012",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "days-between-dates-calculator",
+      "batch_number": "013",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "discount-calculator",
+      "batch_number": "014",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "flooring-calculator",
+      "batch_number": "015",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "loan-early-payoff-calculator",
+      "batch_number": "016",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "paint-coverage-calculator",
+      "batch_number": "017",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "percentage-change-calculator",
+      "batch_number": "018",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "recipe-scale-calculator",
+      "batch_number": "019",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "sales-tax-calculator",
+      "batch_number": "020",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "time-card-calculator",
+      "batch_number": "021",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "tip-calculator",
+      "batch_number": "022",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "emergency-fund-calculator",
+      "batch_number": "023",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "slug": "unit-price-calculator",
+      "batch_number": "024",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "blocked_actions": [
+    "commit",
+    "push",
+    "publish",
+    "github_pages_changes",
+    "analytics",
+    "ads",
+    "affiliate_links",
+    "lead_capture",
+    "outreach"
+  ]
+}

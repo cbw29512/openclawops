@@ -1,0 +1,107 @@
+﻿{
+    "schema_version":  "1.0",
+    "cycle_id":  "ops-20260522-221407",
+    "status":  "fail",
+    "generated_at":  "2026-05-22 22:14:28 -04:00",
+    "steps":  [
+                  {
+                      "name":  "source_health",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-source_health.log"
+                  },
+                  {
+                      "name":  "auto_discover_v2",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-auto_discover_v2.log"
+                  },
+                  {
+                      "name":  "weak_summary_repair",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-weak_summary_repair.log"
+                  },
+                  {
+                      "name":  "opportunity_index_init",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-opportunity_index_init.log"
+                  },
+                  {
+                      "name":  "source_review_queue",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-source_review_queue.log"
+                  },
+                  {
+                      "name":  "artifact_factory",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-artifact_factory.log"
+                  },
+                  {
+                      "name":  "enterprise_audit",
+                      "status":  "fail",
+                      "exit_code":  1,
+                      "detail":  "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nova-enterprise-audit.ps1 : [Nova Enterprise Audit] FAILED: Connectivity probe: ",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-enterprise_audit.log"
+                  },
+                  {
+                      "name":  "daily_money_report",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-daily_money_report.log"
+                  },
+                  {
+                      "name":  "work_order",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-work_order.log"
+                  },
+                  {
+                      "name":  "experiment_plan",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-experiment_plan.log"
+                  },
+                  {
+                      "name":  "simulation_research_runner",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-simulation_research_runner.log"
+                  },
+                  {
+                      "name":  "finder_fee_category_simulation",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-finder_fee_category_simulation.log"
+                  },
+                  {
+                      "name":  "learning_ledger",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-learning_ledger.log"
+                  },
+                  {
+                      "name":  "system_manifest",
+                      "status":  "pass",
+                      "exit_code":  0,
+                      "detail":  "Completed",
+                      "log":  "C:\\Users\\dmchris\\OpenClawOps\\reports\\ops-cycle\\step-logs\\ops-20260522-221407-system_manifest.log"
+                  }
+              ],
+    "safety":  "Local reports and local JSON only. No publishing, selling, outreach, commits, pushes, spending, account creation, credential use, affiliate changes, or live site changes."
+}

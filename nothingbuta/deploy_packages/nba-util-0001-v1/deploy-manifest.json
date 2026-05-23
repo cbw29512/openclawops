@@ -1,0 +1,23 @@
+{
+  "manifest_id": "nothingbuta-deploy-package-nba-util-0001-v1",
+  "created_at": "2026-05-20T14:39:49-04:00",
+  "release_id": "nba-util-0001-v1",
+  "candidate_id": "nba-util-0001",
+  "site_name": "Nothing But A Debt Payoff Calculator",
+  "state": "deploy_package_ready",
+  "deploy_path": "nothingbuta/deploy_packages/nba-util-0001-v1/index.html",
+  "frozen_sha256": "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+  "deploy_sha256": "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+  "file_size_bytes": 7008,
+  "recommended_first_host": "GitHub Pages",
+  "recommended_public_path": "/nothingbuta/debt-payoff-calculator/",
+  "publish_allowed": false,
+  "external_action_allowed": false,
+  "commit_push_allowed": false,
+  "final_chris_approval_required": true,
+  "notes": [
+    "Local deploy package created from frozen staging file.",
+    "No publishing, commit, push, domain, ads, affiliate links, or lead capture occurred.",
+    "Any edit requires re-audit and new freeze."
+  ]
+}

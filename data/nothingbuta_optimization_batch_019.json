@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-21T21:04:43-04:00",
+  "batch_id": "nothingbuta-optimization-batch-019",
+  "target_slug": "recipe-scale-calculator",
+  "target_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\recipe-scale-calculator\\index.html",
+  "backup_path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\docs_backups\\recipe-scale-calculator-before-optimization-019-20260521-210443.html",
+  "status": "PASS",
+  "changed": true,
+  "changes": [
+    "expanded_meta_description",
+    "added_webapplication_json_ld",
+    "added_helpful_copy_and_related_links"
+  ],
+  "problems": []
+}

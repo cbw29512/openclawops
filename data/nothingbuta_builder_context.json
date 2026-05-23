@@ -1,0 +1,117 @@
+{
+  "context_id": "nothingbuta-builder-context",
+  "created_at": "2026-05-20T14:40:42-04:00",
+  "status": "builder_context_ready",
+  "candidate_id": "nba-util-0001",
+  "candidate_name": "Nothing But A Debt Payoff Calculator",
+  "research_status": "research_packet_ready",
+  "research_policy_id": "nothingbuta-inspiration-research-policy",
+  "quality_policy_id": "nothingbuta-mobile-first-quality-gate",
+  "public_policy_id": "nothingbuta-public-page-cleanliness-gate",
+  "mobile_first_required": true,
+  "no_copy_required": true,
+  "public_cleanliness_required": true,
+  "publish_allowed": false,
+  "external_action_allowed": false,
+  "domain_purchase_allowed": false,
+  "ads_allowed": false,
+  "affiliate_links_allowed": false,
+  "lead_capture_allowed": false,
+  "design_consistency_rule": {
+    "keep_consistent": [
+      "tool near top",
+      "large mobile inputs",
+      "clear result card",
+      "plain-English labels",
+      "no forced signup",
+      "visitor-facing disclaimer where needed",
+      "input to result flow"
+    ],
+    "vary_by_site": [
+      "colors",
+      "hero layout",
+      "examples",
+      "supporting sections",
+      "tone",
+      "visual identity",
+      "tool-specific result explanation"
+    ]
+  },
+  "pain_points_to_address": [
+    "Users may not understand how APR turns into monthly interest.",
+    "Users want to know whether extra payments are worth it.",
+    "Users want a plain answer, not a spreadsheet.",
+    "Users may compare snowball versus avalanche payoff approaches.",
+    "Mobile users need the result immediately after changing numbers."
+  ],
+  "mobile_ux_patterns": [
+    "Use one-column input flow on phones.",
+    "Keep input fields thumb-friendly.",
+    "Show the result directly below inputs on mobile.",
+    "Avoid long educational copy before the calculator.",
+    "Use default example values so the tool is useful immediately."
+  ],
+  "result_explanation_patterns": [
+    "Show payoff time first.",
+    "Show interest paid and interest saved separately.",
+    "Show months saved as a simple number.",
+    "Explain what changes when the extra payment changes.",
+    "Use plain-English warnings when payment is too low."
+  ],
+  "faq_candidates": [
+    "What does interest saved mean?",
+    "Does this replace my lender payoff quote?",
+    "Should I use debt snowball or debt avalanche?",
+    "Why does a small extra payment change the payoff date?",
+    "What if my payment is too low?"
+  ],
+  "feature_gap_candidates": [
+    "Add debt snowball versus avalanche comparison.",
+    "Add multiple-debt payoff planner.",
+    "Add printable payoff summary later.",
+    "Add month-by-month payoff table later.",
+    "Add extra-payment scenario comparison."
+  ],
+  "trust_and_disclaimer_patterns": [
+    "Use a short financial estimate disclaimer near the tool.",
+    "Avoid promising exact payoff dates.",
+    "Explain that lender terms, fees, payment timing, and compounding can change results.",
+    "Do not collect sensitive financial details in the first public version."
+  ],
+  "do_not_copy_notes": [
+    "Do not copy Reddit comments or forum posts.",
+    "Do not copy competitor page text.",
+    "Do not copy competitor layout or branding.",
+    "Do not copy proprietary calculator code.",
+    "Use research only to extract general patterns and user needs."
+  ],
+  "next_build_guidance": [
+    "Keep the calculator as the first interactive element.",
+    "Add simple scenario comparison without overwhelming mobile users.",
+    "Use FAQ to answer the top confusion points.",
+    "Avoid internal workflow language on the public page.",
+    "Keep the page visually distinct from future NothingButA tools while preserving the same easy input-result flow."
+  ],
+  "blocked_public_terms": [
+    "local-only",
+    "draft",
+    "nova",
+    "big brother",
+    "little brother",
+    "internal",
+    "regenerate",
+    "future version",
+    "next upgrade",
+    "chris"
+  ],
+  "required_public_markers": [
+    "name=\"viewport\"",
+    "@media",
+    "inputmode",
+    "not financial advice",
+    "interest saved",
+    "result",
+    "example",
+    "faq"
+  ]
+}

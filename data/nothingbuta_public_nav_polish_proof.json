@@ -1,0 +1,257 @@
+{
+  "generated_at": "2026-05-21T16:30:05-04:00",
+  "status": "PASS",
+  "docs_dir": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs",
+  "tools_found": 25,
+  "pages_checked": 26,
+  "changed_files": 25,
+  "blocked_actions": {
+    "commit_allowed": false,
+    "push_allowed": false,
+    "publish_allowed": false,
+    "github_pages_changes_allowed": false,
+    "analytics_allowed": false,
+    "ads_allowed": false,
+    "affiliate_links_allowed": false,
+    "lead_capture_allowed": false,
+    "outreach_allowed": false
+  },
+  "self_check": {
+    "passed": true,
+    "problems": []
+  },
+  "results": [
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\break-even-calculator\\index.html",
+      "slug": "break-even-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\car-payment-calculator\\index.html",
+      "slug": "car-payment-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\churn-rate-calculator\\index.html",
+      "slug": "churn-rate-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\concrete-calculator\\index.html",
+      "slug": "concrete-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\conversion-rate-calculator\\index.html",
+      "slug": "conversion-rate-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\days-between-dates-calculator\\index.html",
+      "slug": "days-between-dates-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\debt-payoff-calculator\\index.html",
+      "slug": "debt-payoff-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\discount-calculator\\index.html",
+      "slug": "discount-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\emergency-fund-calculator\\index.html",
+      "slug": "emergency-fund-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\flooring-calculator\\index.html",
+      "slug": "flooring-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\freelance-rate-calculator\\index.html",
+      "slug": "freelance-rate-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\hourly-to-salary-calculator\\index.html",
+      "slug": "hourly-to-salary-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\index.html",
+      "slug": null,
+      "is_home": true,
+      "changed": false,
+      "changes": []
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\loan-early-payoff-calculator\\index.html",
+      "slug": "loan-early-payoff-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\mortgage-payment-calculator\\index.html",
+      "slug": "mortgage-payment-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paint-coverage-calculator\\index.html",
+      "slug": "paint-coverage-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\paycheck-estimator\\index.html",
+      "slug": "paycheck-estimator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\percentage-change-calculator\\index.html",
+      "slug": "percentage-change-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\recipe-scale-calculator\\index.html",
+      "slug": "recipe-scale-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\rent-affordability-calculator\\index.html",
+      "slug": "rent-affordability-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\roi-calculator\\index.html",
+      "slug": "roi-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\sales-tax-calculator\\index.html",
+      "slug": "sales-tax-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\savings-goal-calculator\\index.html",
+      "slug": "savings-goal-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\time-card-calculator\\index.html",
+      "slug": "time-card-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\tip-calculator\\index.html",
+      "slug": "tip-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\unit-price-calculator\\index.html",
+      "slug": "unit-price-calculator",
+      "is_home": false,
+      "changed": true,
+      "changes": [
+        "added_tool_dropdown"
+      ]
+    }
+  ]
+}

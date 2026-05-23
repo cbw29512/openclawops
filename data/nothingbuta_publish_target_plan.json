@@ -1,0 +1,42 @@
+{
+    "plan_id":  "nothingbuta-publish-target-plan-nba-util-0001-v1",
+    "created_at":  "2026-05-20T15:03:10-04:00",
+    "state":  "publish_target_plan_ready",
+    "release_id":  "nba-util-0001-v1",
+    "candidate_id":  "nba-util-0001",
+    "site_name":  "Nothing But A Debt Payoff Calculator",
+    "deploy_file":  "nothingbuta/deploy_packages/nba-util-0001-v1/index.html",
+    "deploy_sha256":  "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+    "recommended_host":  "GitHub Pages",
+    "recommended_repo_strategy":  "new_or_existing_static_repo",
+    "recommended_public_path":  "/nothingbuta/debt-payoff-calculator/",
+    "recommended_repo_folder":  "docs\\nothingbuta\\debt-payoff-calculator\\index.html",
+    "github_api_required":  false,
+    "git_available":  true,
+    "github_cli_available":  false,
+    "commit_allowed":  false,
+    "push_allowed":  false,
+    "publish_allowed":  false,
+    "external_action_allowed":  false,
+    "final_chris_approval_required":  true,
+    "chris_decisions_required":  [
+                                     "Use an existing repo or create a new NothingButA repo?",
+                                     "What is the local repo path?",
+                                     "Should GitHub Pages serve from /docs on main?",
+                                     "What final public URL/domain should be used?",
+                                     "Should v1 launch with no analytics, privacy-friendly analytics, or Google Search Console only?",
+                                     "Confirm no ads, no affiliate links, and no lead capture for v1.",
+                                     "Explicitly approve the commit/push/deploy action when ready."
+                                 ],
+    "blocked_until_approval":  [
+                                   "git commit",
+                                   "git push",
+                                   "GitHub Pages enablement",
+                                   "domain purchase",
+                                   "DNS changes",
+                                   "analytics installation",
+                                   "ads",
+                                   "affiliate links",
+                                   "lead capture"
+                               ]
+}

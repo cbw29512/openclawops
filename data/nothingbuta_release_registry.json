@@ -1,0 +1,33 @@
+{
+  "registry_id": "nothingbuta-release-registry",
+  "created_at": "2026-05-20T14:00:42-04:00",
+  "updated_at": "2026-05-20T14:39:49-04:00",
+  "active_release_id": "nba-util-0001-v1",
+  "releases": [
+    {
+      "release_id": "nba-util-0001-v1",
+      "candidate_id": "nba-util-0001",
+      "site_name": "Nothing But A Debt Payoff Calculator",
+      "state": "deploy_package_ready",
+      "preview_source": "nothingbuta/previews/nba-util-0001/index.html",
+      "staging_path": "nothingbuta/staging/nba-util-0001/index.html",
+      "enterprise_audit_status": "pass",
+      "publish_allowed": false,
+      "external_action_allowed": false,
+      "domain_purchase_allowed": false,
+      "ads_allowed": false,
+      "affiliate_links_allowed": false,
+      "lead_capture_allowed": false,
+      "commit_push_allowed": false,
+      "final_chris_approval_required": true,
+      "enterprise_audit_at": "2026-05-20T14:00:42-04:00",
+      "release_freeze_status": "frozen",
+      "release_freeze_at": "2026-05-20T14:18:54-04:00",
+      "release_sha256": "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6",
+      "deploy_package_status": "ready",
+      "deploy_package_at": "2026-05-20T14:39:49-04:00",
+      "deploy_package_path": "nothingbuta/deploy_packages/nba-util-0001-v1/index.html",
+      "deploy_sha256": "3A825125E4C3C106175DFDDCF15DE5C9F7BA45D2E0504C53CCD112E7C73745D6"
+    }
+  ]
+}

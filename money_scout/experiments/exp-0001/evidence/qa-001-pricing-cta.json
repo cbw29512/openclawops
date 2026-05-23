@@ -1,0 +1,51 @@
+﻿{
+    "schema_version":  "1.0",
+    "experiment_id":  "exp-0001",
+    "idea_id":  "ms-0002",
+    "check_id":  "qa-001",
+    "area":  "pricing_cta",
+    "status":  "collected",
+    "created_at":  "2026-05-18 21:07:53 -04:00",
+    "collected_at":  "2026-05-18 21:13:13 -04:00",
+    "question":  "Do the solve pages clearly point interested users toward the pricing page?",
+    "anti_hallucination_rule":  "Do not claim CTA coverage, conversion lift, or revenue impact unless evidence is pasted below.",
+    "pricing_page":  {
+                         "url":  "https://pushbutton-291s.polsia.app/pricing",
+                         "observed":  true,
+                         "notes":  "Pricing page exists; collecting CTA-path evidence only. No edits made."
+                     },
+    "solve_pages":  [
+                        {
+                            "label":  "solve_page_1",
+                            "url":  "https://pushbutton-291s.polsia.app/solve/make-landing-page",
+                            "cta_text_found":  "Upgrade / pricing CTA present if page links user toward /pricing",
+                            "points_to_pricing":  true,
+                            "notes":  "Verified as reachable in live check. Pricing nav and Pro plan CTA observed. No edits made."
+                        },
+                        {
+                            "label":  "solve_page_2",
+                            "url":  "https://pushbutton-291s.polsia.app/solve/help-creating-ads",
+                            "cta_text_found":  "Upgrade / pricing CTA present if page links user toward /pricing",
+                            "points_to_pricing":  true,
+                            "notes":  "Original /solve/creating-ads redirected to /solve/help-creating-ads. Pricing nav and Pro plan CTA observed. No edits made."
+                        },
+                        {
+                            "label":  "solve_page_3",
+                            "url":  "https://pushbutton-291s.polsia.app/solve/make-logo",
+                            "cta_text_found":  "See Pro plans — from $4.92/mo →",
+                            "points_to_pricing":  true,
+                            "notes":  "Replacement page verified reachable. Pricing nav and Pro plan CTA observed. No edits made."
+                        }
+                    ],
+    "screenshots_or_proof":  [
+                                 "Pricing page observed live: Free, Pro Annual, and Pro Monthly pricing are visible.",
+                                 "Solve page 1 observed live: /solve/make-landing-page has Pricing nav and See Pro plans CTA.",
+                                 "Solve page 2 observed live: /solve/help-creating-ads has Pricing nav and See Pro plans CTA.",
+                                 "Solve page 3 replacement observed live: /solve/make-logo has Pricing nav and See Pro plans CTA.",
+                                 "Original /solve/online-store returned 404 and was replaced for representative-page QA."
+                             ],
+    "approval_gate":  "No live changes, commits, pushes, outreach, publishing, or spending. Evidence collection only.",
+    "reviewed_at":  "2026-05-18 21:15:35 -04:00",
+    "review_result":  "collected_first_pass",
+    "review_notes":  "Replaced failed /solve/online-store URL with verified reachable /solve/make-logo page. QA-001 is collected for first-pass CTA-path evidence only. This does not prove conversion lift, demand, or revenue."
+}

@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-05-21T20:05:13-04:00",
+  "status": "PASS",
+  "module_dir": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer",
+  "files_written": 7,
+  "files_over_150": 0,
+  "import_test_passed": true,
+  "written_files": [
+    {
+      "module_backup": ""
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\__init__.py",
+      "lines": 4,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\models.py",
+      "lines": 57,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\io_ops.py",
+      "lines": 40,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\html_injection.py",
+      "lines": 129,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\validation.py",
+      "lines": 46,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\reporting.py",
+      "lines": 46,
+      "over_150": false
+    },
+    {
+      "file": "C:\\Users\\dmchris\\OpenClawOps\\scripts\\nothingbuta_optimizer\\runner.py",
+      "lines": 70,
+      "over_150": false
+    }
+  ],
+  "blocked_actions": [
+    "public_page_edits",
+    "commit",
+    "push",
+    "publish",
+    "github_pages_changes",
+    "analytics",
+    "ads",
+    "affiliate_links",
+    "lead_capture",
+    "outreach"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "policy_id": "nothingbuta-local-factory-loop-policy",
+  "created_or_updated_at": "2026-05-22T22:20:53-04:00",
+  "state": "active_strict_quality",
+  "purpose": "Continuously build local-only single-purpose utility candidates with strict quality gates.",
+  "loop_interval_minutes": 10,
+  "batch_size_default": 5,
+  "local_candidate_limit": "none",
+  "pass_requires": [
+    "tool-specific renderer exists",
+    "no generic placeholder calculator",
+    "mobile-first layout",
+    "large touch-friendly inputs",
+    "clear result area",
+    "labels for every input",
+    "FAQ section",
+    "no internal workflow language",
+    "no external scripts or tracking",
+    "no ads, affiliate links, lead capture, cookies, or storage",
+    "finance/work tools include estimate disclaimer"
+  ],
+  "blocked": [
+    "git commit",
+    "git push",
+    "publishing",
+    "GitHub Pages settings changes",
+    "analytics installation",
+    "ads",
+    "affiliate links",
+    "lead capture",
+    "contact forms",
+    "unknown-bot scraping",
+    "copying Reddit/forum/competitor content",
+    "generic placeholder previews marked as passing"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-21T18:33:03-04:00",
+  "status": "PASS",
+  "changed_files": 2,
+  "results": [
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\debt-payoff-calculator\\index.html",
+      "changed": true,
+      "aria_labels_added": 4
+    },
+    {
+      "path": "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta\\docs\\unit-price-calculator\\index.html",
+      "changed": true,
+      "description_length": 144
+    }
+  ]
+}

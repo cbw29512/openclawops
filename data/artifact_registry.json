@@ -1,0 +1,25 @@
+﻿{
+    "schema_version":  "1.0",
+    "updated_at":  "2026-05-22 22:14:17 -04:00",
+    "artifacts":  [
+                      {
+                          "artifact_id":  "artifact-web-0006-001",
+                          "idea_id":  "web-0006",
+                          "status":  "local_draft_only",
+                          "title":  "Local Review Artifact - Shutterstock to pay $35M over hard-to-cancel subscriptions",
+                          "created_at":  "2026-05-18 22:06:55 -04:00",
+                          "path":  "C:\\Users\\dmchris\\OpenClawOps\\money_scout\\internet_reviews\\web-0006\\artifact_draft",
+                          "approval_required_before":  [
+                                                           "publishing",
+                                                           "selling",
+                                                           "outreach",
+                                                           "commit",
+                                                           "push",
+                                                           "live_site_change",
+                                                           "spending",
+                                                           "claiming_compliance",
+                                                           "legal_advice"
+                                                       ]
+                      }
+                  ]
+}

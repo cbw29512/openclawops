@@ -1,0 +1,15 @@
+﻿{
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Build Nova daily local work loop",
+      "status": "active",
+      "priority": "high",
+      "risk_level": "safe_local",
+      "requires_approval": false,
+      "created_by": "Chris",
+      "notes": "Create a repeatable local routine for reviewing tasks, approvals, logs, and daily status."
+    }
+  ]
+}

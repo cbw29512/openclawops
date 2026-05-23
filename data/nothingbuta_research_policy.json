@@ -1,0 +1,46 @@
+{
+  "policy_id": "nothingbuta-inspiration-research-policy",
+  "created_at": "2026-05-20T11:41:07-04:00",
+  "updated_at": "2026-05-20T11:41:07-04:00",
+  "status": "active",
+  "purpose": "Extract inspiration patterns for better utility websites without copying content, code, layout, branding, or user posts.",
+  "allowed_research_outputs": [
+    "pain_point_summary",
+    "user_language_patterns",
+    "ux_pattern_summary",
+    "seo_structure_pattern",
+    "mobile_usability_pattern",
+    "trust_signal_pattern",
+    "feature_gap",
+    "build_guidance"
+  ],
+  "blocked_outputs": [
+    "copied_reddit_comments",
+    "copied_forum_posts",
+    "copied_competitor_copy",
+    "copied_layout",
+    "copied_code",
+    "copied_branding",
+    "stored_personal_user_data",
+    "mass_scraped_content",
+    "published_research_quotes_without_review"
+  ],
+  "reddit_rule": {
+    "allowed": "Use official/approved API access, compliant search-result observation, or manual review. Store only summarized non-identifying observations.",
+    "blocked": "Do not bypass Reddit access controls, scrape as an unknown bot, copy comments into products, or use Reddit data for model training."
+  },
+  "forum_rule": {
+    "allowed": "Use forums for repeated pain points and common questions.",
+    "blocked": "Do not copy posts, usernames, private details, or forum wording into public pages."
+  },
+  "competitor_rule": {
+    "allowed": "Study UX, information architecture, feature coverage, mobile behavior, trust/disclaimer placement, and SEO structure.",
+    "blocked": "Do not copy visual design, code, calculators, proprietary logic, headings, or article text."
+  },
+  "publish_allowed": false,
+  "external_action_allowed": false,
+  "domain_purchase_allowed": false,
+  "ads_allowed": false,
+  "affiliate_links_allowed": false,
+  "lead_capture_allowed": false
+}

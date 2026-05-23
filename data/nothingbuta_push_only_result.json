@@ -1,0 +1,19 @@
+{
+    "manifest_id":  "nothingbuta-push-only-result",
+    "created_at":  "2026-05-20T18:00:02-04:00",
+    "state":  "push_only_complete",
+    "approved_action":  "push_only",
+    "completion_method":  "verified_after_browser_auth_push",
+    "repo_url":  "https://github.com/cbw29512/nothingbuta",
+    "local_clone_path":  "C:\\Users\\dmchris\\OpenClawOps\\nothingbuta\\github\\nothingbuta",
+    "remote_url":  "https://github.com/cbw29512/nothingbuta",
+    "branch":  "main",
+    "pushed_commit_hash":  "9afc3c2d4ba5128343fe53bc1ab6606e84263bb8",
+    "remote_commit_hash":  "9afc3c2d4ba5128343fe53bc1ab6606e84263bb8",
+    "latest_log":  "9afc3c2 Add initial NothingButA debt payoff calculator",
+    "working_tree":  "clean",
+    "publish_allowed":  false,
+    "pages_enable_allowed":  false,
+    "external_action_allowed":  false,
+    "final_chris_approval_required":  true
+}
