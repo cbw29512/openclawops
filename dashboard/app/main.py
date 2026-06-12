@@ -76,7 +76,10 @@ async def activity_feed():
 try:
     from .nothingbuta_routes import router as nothingbuta_router
 except ImportError:
-    from nothingbuta_routes import router as nothingbuta_router
+    print("Warning: Could not import nothingbuta_routes. This is intentional if the feature is disabled.")
+    # Create a dummy router to prevent errors, but it will be inactive
+    from fastapi import APIRouter
+    nothingbuta_router = APIRouter()
 
 app.include_router(nothingbuta_router)
 # === NOTHINGBUTA_ROUTE_INTEGRATION END ===
