@@ -46,4 +46,28 @@ jobs:
           pip install -r dashboard/requirements.txt pip-audit
 
       - name: Audit dashboard dependencies
-        run: pip-audit --requirement dashboard/requirements.txt --strict
+        id: dependency_audit
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          pip-audit --requirement dashboard/requirements.txt --strict --format json \
+            > dashboard-dependency-audit.json 2> dashboard-dependency-audit.stderr
+
+      - name: Upload dashboard dependency evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: openclawops-dashboard-dependency-audit
+          path: |
+            dashboard-dependency-audit.json
+            dashboard-dependency-audit.stderr
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce dependency audit result
+        if: steps.dependency_audit.outcome != 'success'
+        run: |
+          echo "::error::Dashboard dependency audit failed or found one or more advisories."
+          cat dashboard-dependency-audit.stderr || true
+          exit 1
