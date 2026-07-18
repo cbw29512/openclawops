@@ -62,6 +62,7 @@ heartbeat/
 # Generated reports
 reports/nothingbuta-factory-runs/
 reports/*.json
+showcase-validation-report.json
 
 # Nested git repo already on GitHub
 nothingbuta/github/nothingbuta/
