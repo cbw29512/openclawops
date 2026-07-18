@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "project": "OpenClawOps",
+  "purpose": "Local-first supervised automation command center with explicit human approval gates.",
+  "runtime_scope": "local_only",
+  "dashboard_url": "http://127.0.0.1:8788",
+  "allowed_dashboard_mutations": [
+    "data/opportunity_index.json"
+  ],
+  "blocked_external_actions": [
+    "publishing",
+    "selling",
+    "outreach",
+    "sending_messages",
+    "spending",
+    "creating_accounts",
+    "using_credentials",
+    "changing_affiliate_links",
+    "git_commit",
+    "git_push",
+    "modifying_live_pages",
+    "destructive_commands"
+  ],
+  "required_flags": {
+    "local_only": true,
+    "external_actions_enabled": false,
+    "spending_enabled": false,
+    "outreach_enabled": false,
+    "publishing_enabled": false
+  },
+  "required_policy_files": [
+    "APPROVAL_POLICY.md",
+    "money_scout/NOVA_AI_CONTEXT.md",
+    "money_scout/AUTONOMY_AND_ESCALATION_POLICY.md",
+    "money_scout/BUDGET_ROI_POLICY.md",
+    "money_scout/DASHBOARD_APPROVAL_MODEL.md",
+    "money_scout/LEARNING_LOOP_POLICY.md",
+    "money_scout/REPLICATION_POLICY.md",
+    "money_scout/EXPERIMENT_LOOP_POLICY.md",
+    "money_scout/FINDER_FEE_CONCIERGE_POLICY.md"
+  ],
+  "required_product_files": [
+    "dashboard/app/main.py",
+    "dashboard/app/state.py",
+    "dashboard/app/activity.py",
+    "dashboard/app/nothingbuta_routes.py",
+    "dashboard/app/nothingbuta_state.py",
+    "dashboard/requirements.txt",
+    "data/system_manifest.json",
+    "data/nothingbuta_quality_policy.json",
+    "data/nothingbuta_public_page_policy.json"
+  ],
+  "quality_gate_minimums": {
+    "min_quality_score": 85,
+    "min_seo_score": 80,
+    "min_code_score": 80,
+    "min_mobile_score": 90,
+    "required_trust_score": 100
+  },
+  "showcase_claims": [
+    "Dashboard exposes local state and activity visibility.",
+    "Boost and Bury alter local priority only.",
+    "Candidate quality gates run before Chris review.",
+    "External and risky actions require Chris's explicit approval.",
+    "Repository validation never executes the automation factory."
+  ]
+}
