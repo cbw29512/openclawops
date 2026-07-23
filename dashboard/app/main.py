@@ -1,82 +1,110 @@
-﻿import logging
+"""Authenticated local Nova Dashboard application."""
 
-from fastapi import FastAPI, Form, Request
-from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
+import logging
+
+from fastapi import Depends, FastAPI, Form, Request
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from starlette.middleware.trustedhost import TrustedHostMiddleware
 
-from app.state import build_dashboard_state, apply_vote
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
-logger = logging.getLogger("nova_dashboard")
-
-app = FastAPI(title="Nova Money Scout Command Center")
-
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
-templates = Jinja2Templates(directory="app/templates")
-
-
-@app.get("/", response_class=HTMLResponse)
-async def dashboard(request: Request) -> HTMLResponse:
-    """Render the local Nova dashboard."""
-    try:
-        state = build_dashboard_state()
-        return templates.TemplateResponse(
-            "index.html",
-            {
-                "request": request,
-                "state": state,
-            },
-        )
-    except Exception as exc:
-        logger.exception("Dashboard render failed: %s", exc)
-        return HTMLResponse(f"<h1>Dashboard error</h1><pre>{exc}</pre>", status_code=500)
-
-
-@app.get("/api/state")
-async def api_state() -> JSONResponse:
-    """Return the dashboard state as JSON for future live refresh."""
-    try:
-        return JSONResponse(build_dashboard_state())
-    except Exception as exc:
-        logger.exception("State API failed: %s", exc)
-        return JSONResponse({"ok": False, "error": str(exc)}, status_code=500)
-
-
-@app.post("/vote")
-async def vote(item_id: str = Form(...), vote_value: str = Form(...)) -> RedirectResponse:
-    """Boost or Bury an opportunity item.
-
-    This calls the existing local vote script. It does not publish, sell,
-    outreach, spend, commit, push, or change live assets.
-    """
-    try:
-        result = apply_vote(item_id=item_id, vote=vote_value)
-
-        if not result.get("ok"):
-            logger.error("Vote failed: %s", result.get("message"))
-        else:
-            logger.info("Vote applied: %s %s", item_id, vote_value)
-
-        return RedirectResponse(url="/", status_code=303)
-
-    except Exception as exc:
-        logger.exception("Vote endpoint failed: %s", exc)
-        return RedirectResponse(url="/", status_code=303)
-
-# Live activity feed endpoint.
-# This returns observable operations only, not private chain-of-thought.
 from app.activity import read_recent_activity
+from app.security import (
+    allowed_hosts,
+    require_authentication,
+    require_same_origin,
+)
+from app.state import apply_vote, build_dashboard_state
 
-@app.get("/activity")
-async def activity_feed():
-    return read_recent_activity(limit=100)
-
-# === NOTHINGBUTA_ROUTE_INTEGRATION START ===
 try:
     from .nothingbuta_routes import router as nothingbuta_router
 except ImportError:
     from nothingbuta_routes import router as nothingbuta_router
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s %(message)s",
+)
+logger = logging.getLogger("nova_dashboard")
+
+app = FastAPI(
+    title="Nova Money Scout Command Center",
+    docs_url=None,
+    redoc_url=None,
+    dependencies=[
+        Depends(require_authentication),
+        Depends(require_same_origin),
+    ],
+)
+app.add_middleware(
+    TrustedHostMiddleware,
+    allowed_hosts=allowed_hosts(),
+)
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+templates = Jinja2Templates(directory="app/templates")
+
+
+@app.middleware("http")
+async def add_security_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["Cache-Control"] = "no-store, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "no-referrer"
+    return response
+
+
+@app.get("/", response_class=HTMLResponse)
+async def dashboard(request: Request) -> HTMLResponse:
+    """Render the local operator dashboard."""
+    try:
+        state = build_dashboard_state()
+        return templates.TemplateResponse(
+            "index.html",
+            {"request": request, "state": state},
+        )
+    except Exception:
+        logger.exception("Dashboard render failed")
+        return HTMLResponse(
+            "<h1>Dashboard unavailable</h1>",
+            status_code=500,
+        )
+
+
+@app.get("/api/state")
+async def api_state() -> JSONResponse:
+    """Return dashboard state without exposing internal exception details."""
+    try:
+        return JSONResponse(build_dashboard_state())
+    except Exception:
+        logger.exception("State API failed")
+        return JSONResponse(
+            {"ok": False, "error": "Dashboard state is unavailable."},
+            status_code=500,
+        )
+
+
+@app.post("/vote")
+async def vote(
+    item_id: str = Form(..., min_length=1, max_length=200),
+    vote_value: str = Form(..., pattern="^(boost|bury)$"),
+) -> RedirectResponse:
+    """Apply a bounded local priority vote."""
+    try:
+        result = apply_vote(item_id=item_id, vote=vote_value)
+        if not result.get("ok"):
+            logger.error("Vote operation reported failure")
+        else:
+            logger.info("Applied local vote for item %s", item_id)
+    except Exception:
+        logger.exception("Vote endpoint failed")
+    return RedirectResponse(url="/", status_code=303)
+
+
+@app.get("/activity")
+async def activity_feed() -> dict:
+    return read_recent_activity(limit=100)
+
+
 app.include_router(nothingbuta_router)
-# === NOTHINGBUTA_ROUTE_INTEGRATION END ===
