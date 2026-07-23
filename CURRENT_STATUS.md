@@ -1,26 +1,18 @@
-﻿# CURRENT_STATUS.md
+# Public Project Status
 
-## Current Phase
+This repository contains public-safe source and documentation for a local automation workspace.
 
-Phase 2: Build Nova's 24/7 local operating loop.
+Live service status, installed model names, scheduled-task details, local paths, account information, and deployment configuration are intentionally excluded from this public document.
 
-## Confirmed Working
+Operational status belongs in an ignored local file such as `CURRENT_STATUS.local.md`.
 
-- OpenClaw gateway is running.
-- OpenClaw gateway is installed as a Windows Scheduled Task.
-- Ollama is installed.
-- llama3:latest is installed.
-- OpenClaw default model is ollama/llama3:latest.
-- Local TUI responds successfully.
-- Nova identity is active.
+## Current development goal
 
-## Next Goal
+Maintain a repeatable local workflow that:
 
-Create a repeatable daily work loop:
-
-1. Read current state.
-2. Review task queue.
-3. Prepare safe next actions.
-4. Add risky actions to approval queue.
-5. Log what happened.
-6. Produce a daily status report.
+1. reads approved local state;
+2. reviews the task queue;
+3. prepares safe proposed actions;
+4. sends risky actions through an explicit approval gate;
+5. records an operator-visible audit trail; and
+6. generates a local status report without publishing private runtime data.
