@@ -1,6 +1,7 @@
-# Secrets / credentials
+# Secrets and credentials
 .env
 *.env
+!.env.example
 *.key
 *.pem
 *.p12
@@ -11,70 +12,50 @@ credentials*
 secrets*
 tokens*
 
-# Python / Node junk
+# Local operational state
+CURRENT_STATUS.local.md
+*.local.md
+*.local.json
+*.local.yaml
+*.local.yml
+logs/
+heartbeat/
+reports/
+!reports/.gitkeep
+staging_archive/
+backups/
+*_backup/
+docs_backups/
+
+# Python and Node environments
 __pycache__/
-*.pyc
-node_modules/
+*.py[cod]
 .venv/
 venv/
+**/.venv/
+**/venv/
+node_modules/
 
-# Big/runtime output
-*.log
-*.zip
-*.7z
-*.tar
-*.gz
+# Databases, models, caches, and generated output
+*.db
+*.sqlite
+*.sqlite3
 models/
 ollama/
 .cache/
 tmp/
 temp/
 
-# Local backups
-*_backup/
-backups/
-docs_backups/
-staging_archive/
-
-# Runtime logs
-logs/
-reports/*.log
-dashboard/*.log
-
-# Nested virtual environments
-**/.venv/
-**/venv/
-
-# Registry backups
-data/*.bak*
-data/*backup*
-data/*-backup*
-
-# Backup files
+# Backups and archives
 *.bak*
 *.backup*
 *.old
 *.tmp
+*.zip
+*.7z
+*.tar
+*.tgz
+*.gz
 
-# Heartbeat spam
-heartbeat/
-
-# Generated reports
-reports/nothingbuta-factory-runs/
-reports/*.json
-
-# Nested git repo already on GitHub
+# Nested repository already maintained separately
 nothingbuta/github/nothingbuta/
-
-# Python envs
-**/.venv/
-**/venv/
-
-# Registry backups
-data/*.bak*
-data/*backup*
-data/*-backup*
-
-# Runtime junk
-logs/
-*.log
